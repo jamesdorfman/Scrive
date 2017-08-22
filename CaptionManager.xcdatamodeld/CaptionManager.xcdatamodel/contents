@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16E195" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="JokeWord" representedClassName="JokeWord" syncable="YES" codeGenerationType="class">
+        <attribute name="ids" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="word" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Lyric" representedClassName="Lyric" syncable="YES" codeGenerationType="class">
+        <attribute name="tags" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MassQuote" representedClassName="MassQuote" syncable="YES" codeGenerationType="class">
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="OneLiner" representedClassName="OneLiner" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="joke" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Quote" representedClassName="Quote" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="score" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="tags" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="QuoteWord" representedClassName="QuoteWord" syncable="YES" codeGenerationType="class">
+        <attribute name="ids" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="word" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="RedditJoke" representedClassName="RedditJoke" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="score" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="JokeWord" positionX="-45" positionY="27" width="128" height="75"/>
+        <element name="Lyric" positionX="-54" positionY="27" width="128" height="90"/>
+        <element name="MassQuote" positionX="-36" positionY="36" width="128" height="60"/>
+        <element name="OneLiner" positionX="-63" positionY="-18" width="128" height="75"/>
+        <element name="Quote" positionX="-63" positionY="0" width="128" height="105"/>
+        <element name="RedditJoke" positionX="-45" positionY="18" width="128" height="90"/>
+        <element name="QuoteWord" positionX="-45" positionY="27" width="128" height="75"/>
+    </elements>
+</model>

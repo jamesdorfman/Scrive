@@ -1,0 +1,23 @@
+PODS:
+  - Alamofire (4.5.0)
+  - EVGPUImage2 (0.1.0)
+  - NVActivityIndicatorView (3.7.0):
+    - NVActivityIndicatorView/Presenter (= 3.7.0)
+  - NVActivityIndicatorView/Presenter (3.7.0)
+  - TTSegmentedControl (0.2.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - EVGPUImage2
+  - NVActivityIndicatorView
+  - TTSegmentedControl
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  EVGPUImage2: 29221cf64d70ab9119dd48fc8898677b2af0c16e
+  NVActivityIndicatorView: d3738df7e2e476aca0ba6bf32a8c9fbcfc33d64b
+  TTSegmentedControl: 6ba1c0ef7bf966c794361772003f8b27cc812e0a
+
+PODFILE CHECKSUM: 0eb80675eeb9e240c8625da7431333ebb943696a
+
+COCOAPODS: 1.2.1

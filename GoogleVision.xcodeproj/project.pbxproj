@@ -7,21 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1508C6641F2573F600A3FF08 /* CaptionManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1508C6621F2573F600A3FF08 /* CaptionManager.xcdatamodeld */; };
 		1558C9571F0C53FD00C61233 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1558C9561F0C53FD00C61233 /* AppDelegate.swift */; };
 		1558C9591F0C53FD00C61233 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1558C9581F0C53FD00C61233 /* ViewController.swift */; };
 		1558C95C1F0C53FD00C61233 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1558C95A1F0C53FD00C61233 /* Main.storyboard */; };
 		1558C95E1F0C53FD00C61233 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1558C95D1F0C53FD00C61233 /* Assets.xcassets */; };
 		1558C9611F0C53FD00C61233 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1558C95F1F0C53FD00C61233 /* LaunchScreen.storyboard */; };
+		1558C9691F0C5A6B00C61233 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1558C9681F0C5A6B00C61233 /* Constants.swift */; };
+		1558C96D1F0C5D3B00C61233 /* CurrentImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1558C96C1F0C5D3B00C61233 /* CurrentImage.swift */; };
+		1558C96F1F0C5E3B00C61233 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1558C96E1F0C5E3B00C61233 /* Alamofire.framework */; };
+		155BE42B1F2309E20085F8B4 /* EVGPUImage2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 155BE42A1F2309E20085F8B4 /* EVGPUImage2.framework */; };
+		155FEA821F4118660020D4B5 /* refined_quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = 155FEA811F4118660020D4B5 /* refined_quotes.json */; };
+		155FEA8A1F4238070020D4B5 /* reddit_joke_index.json in Resources */ = {isa = PBXBuildFile; fileRef = 155FEA891F4238070020D4B5 /* reddit_joke_index.json */; };
+		155FEA8C1F423C580020D4B5 /* reddit_jokes.json in Resources */ = {isa = PBXBuildFile; fileRef = 155FEA8B1F423C580020D4B5 /* reddit_jokes.json */; };
+		155FEA8E1F4241750020D4B5 /* refined_quote_index.json in Resources */ = {isa = PBXBuildFile; fileRef = 155FEA8D1F4241750020D4B5 /* refined_quote_index.json */; };
+		15AB6EDA1F14190A00B901D5 /* CurrentWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AB6ED91F14190A00B901D5 /* CurrentWord.swift */; };
+		15BE13931F2BF65F00878B11 /* DropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BE13921F2BF65F00878B11 /* DropShadow.swift */; };
+		15BE13951F2D1C0900878B11 /* VerticallyCenterTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BE13941F2D1C0900878B11 /* VerticallyCenterTextView.swift */; };
+		15BFE3811F0DCFDF00D7A129 /* shortjokes.csv in Resources */ = {isa = PBXBuildFile; fileRef = 15BFE3801F0DCFDF00D7A129 /* shortjokes.csv */; };
+		15BFE3831F0DD07C00D7A129 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BFE3821F0DD07C00D7A129 /* csv.swift */; };
+		15BFE3851F0DD32A00D7A129 /* most_popular_quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = 15BFE3841F0DD32A00D7A129 /* most_popular_quotes.json */; };
+		15C348161F0ED416009E3B24 /* ParseJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C348151F0ED416009E3B24 /* ParseJSON.swift */; };
+		15C348181F0ED8F7009E3B24 /* GenerateCaptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C348171F0ED8F7009E3B24 /* GenerateCaptions.swift */; };
+		15D6E4C81F26924E000A3151 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D6E4C71F26924E000A3151 /* DataController.swift */; };
+		15D6E4CA1F26CB00000A3151 /* str.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D6E4C91F26CB00000A3151 /* str.swift */; };
+		15EC6E351F38015D00B2104F /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EC6E341F38015D00B2104F /* StringExtension.swift */; };
+		15EC6E3D1F390BD500B2104F /* ImageFix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EC6E3C1F390BD500B2104F /* ImageFix.swift */; };
+		15FF2D981F33D52C00B11FF6 /* best_rap_lines_tweets_tagged.csv in Resources */ = {isa = PBXBuildFile; fileRef = 15FF2D971F33D52C00B11FF6 /* best_rap_lines_tweets_tagged.csv */; };
+		A1941EF3ACDC4459E2F1D791 /* Pods_GoogleVision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E5283EBDC896E35726A8CE /* Pods_GoogleVision.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1558C9531F0C53FD00C61233 /* GoogleVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E5283EBDC896E35726A8CE /* Pods_GoogleVision.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleVision.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0678FD5146F6810B637DD300 /* Pods-GoogleVision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleVision.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleVision/Pods-GoogleVision.release.xcconfig"; sourceTree = "<group>"; };
+		1508C6631F2573F600A3FF08 /* CaptionManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CaptionManager.xcdatamodel; sourceTree = "<group>"; };
+		1558C9531F0C53FD00C61233 /* Scrive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1558C9561F0C53FD00C61233 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1558C9581F0C53FD00C61233 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1558C95B1F0C53FD00C61233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1558C95D1F0C53FD00C61233 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1558C9601F0C53FD00C61233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1558C9621F0C53FD00C61233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1558C9681F0C5A6B00C61233 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1558C96C1F0C5D3B00C61233 /* CurrentImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentImage.swift; sourceTree = "<group>"; };
+		1558C96E1F0C5E3B00C61233 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../../Library/Developer/Xcode/DerivedData/GoogleVision-hhijienewrqhcubgoehyqkvnjebx/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		155BE42A1F2309E20085F8B4 /* EVGPUImage2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EVGPUImage2.framework; path = "../../../../Library/Developer/Xcode/DerivedData/GoogleVision-hhijienewrqhcubgoehyqkvnjebx/Build/Products/Debug-iphonesimulator/EVGPUImage2/EVGPUImage2.framework"; sourceTree = "<group>"; };
+		155FEA811F4118660020D4B5 /* refined_quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = refined_quotes.json; sourceTree = "<group>"; };
+		155FEA891F4238070020D4B5 /* reddit_joke_index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = reddit_joke_index.json; sourceTree = "<group>"; };
+		155FEA8B1F423C580020D4B5 /* reddit_jokes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = reddit_jokes.json; sourceTree = "<group>"; };
+		155FEA8D1F4241750020D4B5 /* refined_quote_index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = refined_quote_index.json; sourceTree = "<group>"; };
+		157EB2881F1C310600235B0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		15AB6ED91F14190A00B901D5 /* CurrentWord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWord.swift; sourceTree = "<group>"; };
+		15BE13921F2BF65F00878B11 /* DropShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropShadow.swift; sourceTree = "<group>"; };
+		15BE13941F2D1C0900878B11 /* VerticallyCenterTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticallyCenterTextView.swift; sourceTree = "<group>"; };
+		15BFE3801F0DCFDF00D7A129 /* shortjokes.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = shortjokes.csv; sourceTree = "<group>"; };
+		15BFE3821F0DD07C00D7A129 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
+		15BFE3841F0DD32A00D7A129 /* most_popular_quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = most_popular_quotes.json; sourceTree = "<group>"; };
+		15C348151F0ED416009E3B24 /* ParseJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseJSON.swift; sourceTree = "<group>"; };
+		15C348171F0ED8F7009E3B24 /* GenerateCaptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenerateCaptions.swift; sourceTree = "<group>"; };
+		15D6E4C71F26924E000A3151 /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		15D6E4C91F26CB00000A3151 /* str.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = str.swift; sourceTree = "<group>"; };
+		15EC6E341F38015D00B2104F /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		15EC6E3C1F390BD500B2104F /* ImageFix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFix.swift; sourceTree = "<group>"; };
+		15FF2D971F33D52C00B11FF6 /* best_rap_lines_tweets_tagged.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = best_rap_lines_tweets_tagged.csv; sourceTree = "<group>"; };
+		CB855A2623AAEEAFC0F293FA /* Pods-GoogleVision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleVision.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleVision/Pods-GoogleVision.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +78,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				155BE42B1F2309E20085F8B4 /* EVGPUImage2.framework in Frameworks */,
+				1558C96F1F0C5E3B00C61233 /* Alamofire.framework in Frameworks */,
+				A1941EF3ACDC4459E2F1D791 /* Pods_GoogleVision.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,15 +90,18 @@
 		1558C94A1F0C53FD00C61233 = {
 			isa = PBXGroup;
 			children = (
+				1508C6621F2573F600A3FF08 /* CaptionManager.xcdatamodeld */,
 				1558C9551F0C53FD00C61233 /* GoogleVision */,
 				1558C9541F0C53FD00C61233 /* Products */,
+				6E7CF406B7D0D9974E3168BE /* Frameworks */,
+				29999F04370EF65B3504DD4C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		1558C9541F0C53FD00C61233 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1558C9531F0C53FD00C61233 /* GoogleVision.app */,
+				1558C9531F0C53FD00C61233 /* Scrive.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,13 +110,117 @@
 			isa = PBXGroup;
 			children = (
 				1558C9561F0C53FD00C61233 /* AppDelegate.swift */,
-				1558C9581F0C53FD00C61233 /* ViewController.swift */,
+				156986781F1EC629004FE07A /* View */,
+				1558C96B1F0C5C9900C61233 /* Model */,
+				1558C96A1F0C5C8F00C61233 /* Controller */,
 				1558C95A1F0C53FD00C61233 /* Main.storyboard */,
 				1558C95D1F0C53FD00C61233 /* Assets.xcassets */,
 				1558C95F1F0C53FD00C61233 /* LaunchScreen.storyboard */,
 				1558C9621F0C53FD00C61233 /* Info.plist */,
 			);
 			path = GoogleVision;
+			sourceTree = "<group>";
+		};
+		1558C96A1F0C5C8F00C61233 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1558C9581F0C53FD00C61233 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1558C96B1F0C5C9900C61233 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1592FC541F2165A200A51256 /* Constants */,
+				15D6E4C61F26922F000A3151 /* Core Data */,
+				15AB6EDB1F14191100B901D5 /* Web request classes */,
+				15B720E71F0EE6BB0032D25D /* Data */,
+				15C348151F0ED416009E3B24 /* ParseJSON.swift */,
+				155FEA8B1F423C580020D4B5 /* reddit_jokes.json */,
+				155FEA811F4118660020D4B5 /* refined_quotes.json */,
+				15C348171F0ED8F7009E3B24 /* GenerateCaptions.swift */,
+				15BFE3821F0DD07C00D7A129 /* csv.swift */,
+				15D6E4C91F26CB00000A3151 /* str.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		156986781F1EC629004FE07A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15BE13921F2BF65F00878B11 /* DropShadow.swift */,
+				15BE13941F2D1C0900878B11 /* VerticallyCenterTextView.swift */,
+				15EC6E341F38015D00B2104F /* StringExtension.swift */,
+				15EC6E3C1F390BD500B2104F /* ImageFix.swift */,
+			);
+			name = View;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		1592FC541F2165A200A51256 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				1558C9681F0C5A6B00C61233 /* Constants.swift */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		15AB6EDB1F14191100B901D5 /* Web request classes */ = {
+			isa = PBXGroup;
+			children = (
+				1558C96C1F0C5D3B00C61233 /* CurrentImage.swift */,
+				15AB6ED91F14190A00B901D5 /* CurrentWord.swift */,
+			);
+			name = "Web request classes";
+			sourceTree = "<group>";
+		};
+		15AB6EE01F14306600B901D5 /* Indexes */ = {
+			isa = PBXGroup;
+			children = (
+				155FEA891F4238070020D4B5 /* reddit_joke_index.json */,
+			);
+			name = Indexes;
+			sourceTree = "<group>";
+		};
+		15B720E71F0EE6BB0032D25D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				15AB6EE01F14306600B901D5 /* Indexes */,
+				15BFE3801F0DCFDF00D7A129 /* shortjokes.csv */,
+				155FEA8D1F4241750020D4B5 /* refined_quote_index.json */,
+				15BFE3841F0DD32A00D7A129 /* most_popular_quotes.json */,
+				15FF2D971F33D52C00B11FF6 /* best_rap_lines_tweets_tagged.csv */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		15D6E4C61F26922F000A3151 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				15D6E4C71F26924E000A3151 /* DataController.swift */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		29999F04370EF65B3504DD4C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB855A2623AAEEAFC0F293FA /* Pods-GoogleVision.debug.xcconfig */,
+				0678FD5146F6810B637DD300 /* Pods-GoogleVision.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6E7CF406B7D0D9974E3168BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				155BE42A1F2309E20085F8B4 /* EVGPUImage2.framework */,
+				157EB2881F1C310600235B0F /* CoreGraphics.framework */,
+				1558C96E1F0C5E3B00C61233 /* Alamofire.framework */,
+				00E5283EBDC896E35726A8CE /* Pods_GoogleVision.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +230,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1558C9651F0C53FD00C61233 /* Build configuration list for PBXNativeTarget "GoogleVision" */;
 			buildPhases = (
+				B663FD4B3DD040C5FF6EBB68 /* [CP] Check Pods Manifest.lock */,
 				1558C94F1F0C53FD00C61233 /* Sources */,
 				1558C9501F0C53FD00C61233 /* Frameworks */,
 				1558C9511F0C53FD00C61233 /* Resources */,
+				8E3D6EBB4159836EF866A19A /* [CP] Embed Pods Frameworks */,
+				77F66EF67D43275C648901A7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -81,7 +243,7 @@
 			);
 			name = GoogleVision;
 			productName = GoogleVision;
-			productReference = 1558C9531F0C53FD00C61233 /* GoogleVision.app */;
+			productReference = 1558C9531F0C53FD00C61233 /* Scrive.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -97,6 +259,7 @@
 					1558C9521F0C53FD00C61233 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 729QD7S49T;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,21 +287,89 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				155FEA8E1F4241750020D4B5 /* refined_quote_index.json in Resources */,
+				155FEA8A1F4238070020D4B5 /* reddit_joke_index.json in Resources */,
+				15FF2D981F33D52C00B11FF6 /* best_rap_lines_tweets_tagged.csv in Resources */,
 				1558C9611F0C53FD00C61233 /* LaunchScreen.storyboard in Resources */,
 				1558C95E1F0C53FD00C61233 /* Assets.xcassets in Resources */,
+				155FEA8C1F423C580020D4B5 /* reddit_jokes.json in Resources */,
 				1558C95C1F0C53FD00C61233 /* Main.storyboard in Resources */,
+				15BFE3811F0DCFDF00D7A129 /* shortjokes.csv in Resources */,
+				155FEA821F4118660020D4B5 /* refined_quotes.json in Resources */,
+				15BFE3851F0DD32A00D7A129 /* most_popular_quotes.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77F66EF67D43275C648901A7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleVision/Pods-GoogleVision-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E3D6EBB4159836EF866A19A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleVision/Pods-GoogleVision-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B663FD4B3DD040C5FF6EBB68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1558C94F1F0C53FD00C61233 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1508C6641F2573F600A3FF08 /* CaptionManager.xcdatamodeld in Sources */,
+				15D6E4CA1F26CB00000A3151 /* str.swift in Sources */,
 				1558C9591F0C53FD00C61233 /* ViewController.swift in Sources */,
+				15BE13951F2D1C0900878B11 /* VerticallyCenterTextView.swift in Sources */,
 				1558C9571F0C53FD00C61233 /* AppDelegate.swift in Sources */,
+				1558C9691F0C5A6B00C61233 /* Constants.swift in Sources */,
+				15BE13931F2BF65F00878B11 /* DropShadow.swift in Sources */,
+				15AB6EDA1F14190A00B901D5 /* CurrentWord.swift in Sources */,
+				15C348181F0ED8F7009E3B24 /* GenerateCaptions.swift in Sources */,
+				15EC6E3D1F390BD500B2104F /* ImageFix.swift in Sources */,
+				1558C96D1F0C5D3B00C61233 /* CurrentImage.swift in Sources */,
+				15BFE3831F0DD07C00D7A129 /* csv.swift in Sources */,
+				15EC6E351F38015D00B2104F /* StringExtension.swift in Sources */,
+				15C348161F0ED416009E3B24 /* ParseJSON.swift in Sources */,
+				15D6E4C81F26924E000A3151 /* DataController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +420,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -240,6 +472,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -261,27 +494,58 @@
 		};
 		1558C9661F0C53FD00C61233 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB855A2623AAEEAFC0F293FA /* Pods-GoogleVision.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 729QD7S49T;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleVision",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = GoogleVision/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jamesdorfman.GoogleVision;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamesdorfman.scrive;
+				PRODUCT_NAME = Scrive;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_REFLECTION_METADATA_LEVEL = none;
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		1558C9671F0C53FD00C61233 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0678FD5146F6810B637DD300 /* Pods-GoogleVision.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 729QD7S49T;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleVision",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = GoogleVision/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jamesdorfman.GoogleVision;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamesdorfman.scrive;
+				PRODUCT_NAME = Scrive;
+				SWIFT_REFLECTION_METADATA_LEVEL = none;
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -304,8 +568,22 @@
 				1558C9671F0C53FD00C61233 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1508C6621F2573F600A3FF08 /* CaptionManager.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1508C6631F2573F600A3FF08 /* CaptionManager.xcdatamodel */,
+			);
+			currentVersion = 1508C6631F2573F600A3FF08 /* CaptionManager.xcdatamodel */;
+			path = CaptionManager.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 1558C94B1F0C53FD00C61233 /* Project object */;
 }
