@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_GoogleVisionVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_GoogleVisionVersionString[];
+FOUNDATION_EXPORT double Pods_ScriveVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_ScriveVersionString[];
 
