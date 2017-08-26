@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1508C6641F2573F600A3FF08 /* CaptionManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1508C6621F2573F600A3FF08 /* CaptionManager.xcdatamodeld */; };
+		151DD40A1F4CD6C20080B295 /* GenerateCaptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151DD4091F4CD6C20080B295 /* GenerateCaptions.swift */; };
+		151DD40E1F4CE08B0080B295 /* reddit_joke_index.json in Resources */ = {isa = PBXBuildFile; fileRef = 151DD40D1F4CE08B0080B295 /* reddit_joke_index.json */; };
+		151DD4101F4CE1710080B295 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 151DD40F1F4CE1710080B295 /* Info.plist */; };
 		1558C9571F0C53FD00C61233 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1558C9561F0C53FD00C61233 /* AppDelegate.swift */; };
 		1558C9591F0C53FD00C61233 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1558C9581F0C53FD00C61233 /* ViewController.swift */; };
 		1558C95C1F0C53FD00C61233 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1558C95A1F0C53FD00C61233 /* Main.storyboard */; };
@@ -18,58 +21,54 @@
 		1558C96F1F0C5E3B00C61233 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1558C96E1F0C5E3B00C61233 /* Alamofire.framework */; };
 		155BE42B1F2309E20085F8B4 /* EVGPUImage2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 155BE42A1F2309E20085F8B4 /* EVGPUImage2.framework */; };
 		155FEA821F4118660020D4B5 /* refined_quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = 155FEA811F4118660020D4B5 /* refined_quotes.json */; };
-		155FEA8A1F4238070020D4B5 /* reddit_joke_index.json in Resources */ = {isa = PBXBuildFile; fileRef = 155FEA891F4238070020D4B5 /* reddit_joke_index.json */; };
 		155FEA8C1F423C580020D4B5 /* reddit_jokes.json in Resources */ = {isa = PBXBuildFile; fileRef = 155FEA8B1F423C580020D4B5 /* reddit_jokes.json */; };
 		155FEA8E1F4241750020D4B5 /* refined_quote_index.json in Resources */ = {isa = PBXBuildFile; fileRef = 155FEA8D1F4241750020D4B5 /* refined_quote_index.json */; };
 		15AB6EDA1F14190A00B901D5 /* CurrentWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AB6ED91F14190A00B901D5 /* CurrentWord.swift */; };
-		15BE13931F2BF65F00878B11 /* DropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BE13921F2BF65F00878B11 /* DropShadow.swift */; };
-		15BE13951F2D1C0900878B11 /* VerticallyCenterTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BE13941F2D1C0900878B11 /* VerticallyCenterTextView.swift */; };
 		15BFE3811F0DCFDF00D7A129 /* shortjokes.csv in Resources */ = {isa = PBXBuildFile; fileRef = 15BFE3801F0DCFDF00D7A129 /* shortjokes.csv */; };
 		15BFE3831F0DD07C00D7A129 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BFE3821F0DD07C00D7A129 /* csv.swift */; };
 		15BFE3851F0DD32A00D7A129 /* most_popular_quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = 15BFE3841F0DD32A00D7A129 /* most_popular_quotes.json */; };
 		15C348161F0ED416009E3B24 /* ParseJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C348151F0ED416009E3B24 /* ParseJSON.swift */; };
-		15C348181F0ED8F7009E3B24 /* GenerateCaptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C348171F0ED8F7009E3B24 /* GenerateCaptions.swift */; };
 		15D6E4C81F26924E000A3151 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D6E4C71F26924E000A3151 /* DataController.swift */; };
 		15D6E4CA1F26CB00000A3151 /* str.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D6E4C91F26CB00000A3151 /* str.swift */; };
 		15EC6E351F38015D00B2104F /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EC6E341F38015D00B2104F /* StringExtension.swift */; };
 		15EC6E3D1F390BD500B2104F /* ImageFix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EC6E3C1F390BD500B2104F /* ImageFix.swift */; };
 		15FF2D981F33D52C00B11FF6 /* best_rap_lines_tweets_tagged.csv in Resources */ = {isa = PBXBuildFile; fileRef = 15FF2D971F33D52C00B11FF6 /* best_rap_lines_tweets_tagged.csv */; };
-		A1941EF3ACDC4459E2F1D791 /* Pods_GoogleVision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E5283EBDC896E35726A8CE /* Pods_GoogleVision.framework */; };
+		D229E3CCDA23DA7F1D57B14F /* Pods_Scrive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 941599C274F7A35631A8DC4F /* Pods_Scrive.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		00E5283EBDC896E35726A8CE /* Pods_GoogleVision.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleVision.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0678FD5146F6810B637DD300 /* Pods-GoogleVision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleVision.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleVision/Pods-GoogleVision.release.xcconfig"; sourceTree = "<group>"; };
 		1508C6631F2573F600A3FF08 /* CaptionManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CaptionManager.xcdatamodel; sourceTree = "<group>"; };
+		151DD4091F4CD6C20080B295 /* GenerateCaptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GenerateCaptions.swift; path = Scrive/GenerateCaptions.swift; sourceTree = SOURCE_ROOT; };
+		151DD40D1F4CE08B0080B295 /* reddit_joke_index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = reddit_joke_index.json; sourceTree = "<group>"; };
+		151DD40F1F4CE1710080B295 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Scrive/Info.plist; sourceTree = SOURCE_ROOT; };
 		1558C9531F0C53FD00C61233 /* Scrive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrive.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1558C9561F0C53FD00C61233 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1558C9581F0C53FD00C61233 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1558C9561F0C53FD00C61233 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Scrive/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		1558C9581F0C53FD00C61233 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Scrive/ViewController.swift; sourceTree = SOURCE_ROOT; };
 		1558C95B1F0C53FD00C61233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1558C95D1F0C53FD00C61233 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1558C95D1F0C53FD00C61233 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Scrive/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		1558C9601F0C53FD00C61233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1558C9621F0C53FD00C61233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1558C9681F0C5A6B00C61233 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		1558C96C1F0C5D3B00C61233 /* CurrentImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentImage.swift; sourceTree = "<group>"; };
-		1558C96E1F0C5E3B00C61233 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../../Library/Developer/Xcode/DerivedData/GoogleVision-hhijienewrqhcubgoehyqkvnjebx/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
-		155BE42A1F2309E20085F8B4 /* EVGPUImage2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EVGPUImage2.framework; path = "../../../../Library/Developer/Xcode/DerivedData/GoogleVision-hhijienewrqhcubgoehyqkvnjebx/Build/Products/Debug-iphonesimulator/EVGPUImage2/EVGPUImage2.framework"; sourceTree = "<group>"; };
-		155FEA811F4118660020D4B5 /* refined_quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = refined_quotes.json; sourceTree = "<group>"; };
-		155FEA891F4238070020D4B5 /* reddit_joke_index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = reddit_joke_index.json; sourceTree = "<group>"; };
-		155FEA8B1F423C580020D4B5 /* reddit_jokes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = reddit_jokes.json; sourceTree = "<group>"; };
-		155FEA8D1F4241750020D4B5 /* refined_quote_index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = refined_quote_index.json; sourceTree = "<group>"; };
+		1558C9681F0C5A6B00C61233 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Scrive/Constants.swift; sourceTree = SOURCE_ROOT; };
+		1558C96C1F0C5D3B00C61233 /* CurrentImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CurrentImage.swift; path = Scrive/CurrentImage.swift; sourceTree = SOURCE_ROOT; };
+		1558C96E1F0C5E3B00C61233 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../Library/Developer/Xcode/DerivedData/Scrive-haufrllpquxrhpasjgdfsaqdqhvx/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		155BE42A1F2309E20085F8B4 /* EVGPUImage2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EVGPUImage2.framework; path = "../../../Library/Developer/Xcode/DerivedData/Scrive-haufrllpquxrhpasjgdfsaqdqhvx/Build/Products/Debug-iphonesimulator/EVGPUImage2/EVGPUImage2.framework"; sourceTree = "<group>"; };
+		155FEA811F4118660020D4B5 /* refined_quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = refined_quotes.json; path = Scrive/refined_quotes.json; sourceTree = SOURCE_ROOT; };
+		155FEA8B1F423C580020D4B5 /* reddit_jokes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = reddit_jokes.json; path = Scrive/reddit_jokes.json; sourceTree = SOURCE_ROOT; };
+		155FEA8D1F4241750020D4B5 /* refined_quote_index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = refined_quote_index.json; path = Scrive/refined_quote_index.json; sourceTree = SOURCE_ROOT; };
 		157EB2881F1C310600235B0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		15AB6ED91F14190A00B901D5 /* CurrentWord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWord.swift; sourceTree = "<group>"; };
-		15BE13921F2BF65F00878B11 /* DropShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropShadow.swift; sourceTree = "<group>"; };
-		15BE13941F2D1C0900878B11 /* VerticallyCenterTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticallyCenterTextView.swift; sourceTree = "<group>"; };
-		15BFE3801F0DCFDF00D7A129 /* shortjokes.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = shortjokes.csv; sourceTree = "<group>"; };
-		15BFE3821F0DD07C00D7A129 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
-		15BFE3841F0DD32A00D7A129 /* most_popular_quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = most_popular_quotes.json; sourceTree = "<group>"; };
-		15C348151F0ED416009E3B24 /* ParseJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseJSON.swift; sourceTree = "<group>"; };
-		15C348171F0ED8F7009E3B24 /* GenerateCaptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenerateCaptions.swift; sourceTree = "<group>"; };
-		15D6E4C71F26924E000A3151 /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
-		15D6E4C91F26CB00000A3151 /* str.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = str.swift; sourceTree = "<group>"; };
-		15EC6E341F38015D00B2104F /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
-		15EC6E3C1F390BD500B2104F /* ImageFix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFix.swift; sourceTree = "<group>"; };
-		15FF2D971F33D52C00B11FF6 /* best_rap_lines_tweets_tagged.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = best_rap_lines_tweets_tagged.csv; sourceTree = "<group>"; };
+		15AB6ED91F14190A00B901D5 /* CurrentWord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CurrentWord.swift; path = Scrive/CurrentWord.swift; sourceTree = SOURCE_ROOT; };
+		15BFE3801F0DCFDF00D7A129 /* shortjokes.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = shortjokes.csv; path = Scrive/shortjokes.csv; sourceTree = SOURCE_ROOT; };
+		15BFE3821F0DD07C00D7A129 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = csv.swift; path = Scrive/csv.swift; sourceTree = SOURCE_ROOT; };
+		15BFE3841F0DD32A00D7A129 /* most_popular_quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = most_popular_quotes.json; path = Scrive/most_popular_quotes.json; sourceTree = SOURCE_ROOT; };
+		15C348151F0ED416009E3B24 /* ParseJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParseJSON.swift; path = Scrive/ParseJSON.swift; sourceTree = SOURCE_ROOT; };
+		15D6E4C71F26924E000A3151 /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataController.swift; path = Scrive/DataController.swift; sourceTree = SOURCE_ROOT; };
+		15D6E4C91F26CB00000A3151 /* str.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = str.swift; path = Scrive/str.swift; sourceTree = SOURCE_ROOT; };
+		15EC6E341F38015D00B2104F /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = SOURCE_ROOT; };
+		15EC6E3C1F390BD500B2104F /* ImageFix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFix.swift; sourceTree = SOURCE_ROOT; };
+		15FF2D971F33D52C00B11FF6 /* best_rap_lines_tweets_tagged.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = best_rap_lines_tweets_tagged.csv; path = Scrive/best_rap_lines_tweets_tagged.csv; sourceTree = SOURCE_ROOT; };
+		941599C274F7A35631A8DC4F /* Pods_Scrive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Scrive.framework; path = "../Debug-iphonesimulator/Pods_Scrive.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B25B724F6971AEEDCA90A084 /* Pods-Scrive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scrive.release.xcconfig"; path = "Pods/Target Support Files/Pods-Scrive/Pods-Scrive.release.xcconfig"; sourceTree = "<group>"; };
+		CB19659C79617555F2F2B6BE /* Pods-Scrive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scrive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Scrive/Pods-Scrive.debug.xcconfig"; sourceTree = "<group>"; };
 		CB855A2623AAEEAFC0F293FA /* Pods-GoogleVision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleVision.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleVision/Pods-GoogleVision.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,7 +79,7 @@
 			files = (
 				155BE42B1F2309E20085F8B4 /* EVGPUImage2.framework in Frameworks */,
 				1558C96F1F0C5E3B00C61233 /* Alamofire.framework in Frameworks */,
-				A1941EF3ACDC4459E2F1D791 /* Pods_GoogleVision.framework in Frameworks */,
+				D229E3CCDA23DA7F1D57B14F /* Pods_Scrive.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				1508C6621F2573F600A3FF08 /* CaptionManager.xcdatamodeld */,
-				1558C9551F0C53FD00C61233 /* GoogleVision */,
+				1558C9551F0C53FD00C61233 /* Scrive */,
 				1558C9541F0C53FD00C61233 /* Products */,
 				6E7CF406B7D0D9974E3168BE /* Frameworks */,
 				29999F04370EF65B3504DD4C /* Pods */,
@@ -106,7 +105,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1558C9551F0C53FD00C61233 /* GoogleVision */ = {
+		1558C9551F0C53FD00C61233 /* Scrive */ = {
 			isa = PBXGroup;
 			children = (
 				1558C9561F0C53FD00C61233 /* AppDelegate.swift */,
@@ -114,12 +113,12 @@
 				1558C96B1F0C5C9900C61233 /* Model */,
 				1558C96A1F0C5C8F00C61233 /* Controller */,
 				1558C95A1F0C53FD00C61233 /* Main.storyboard */,
+				151DD40F1F4CE1710080B295 /* Info.plist */,
 				1558C95D1F0C53FD00C61233 /* Assets.xcassets */,
 				1558C95F1F0C53FD00C61233 /* LaunchScreen.storyboard */,
-				1558C9621F0C53FD00C61233 /* Info.plist */,
 			);
-			path = GoogleVision;
-			sourceTree = "<group>";
+			name = Scrive;
+			sourceTree = SOURCE_ROOT;
 		};
 		1558C96A1F0C5C8F00C61233 /* Controller */ = {
 			isa = PBXGroup;
@@ -137,9 +136,9 @@
 				15AB6EDB1F14191100B901D5 /* Web request classes */,
 				15B720E71F0EE6BB0032D25D /* Data */,
 				15C348151F0ED416009E3B24 /* ParseJSON.swift */,
+				151DD4091F4CD6C20080B295 /* GenerateCaptions.swift */,
 				155FEA8B1F423C580020D4B5 /* reddit_jokes.json */,
 				155FEA811F4118660020D4B5 /* refined_quotes.json */,
-				15C348171F0ED8F7009E3B24 /* GenerateCaptions.swift */,
 				15BFE3821F0DD07C00D7A129 /* csv.swift */,
 				15D6E4C91F26CB00000A3151 /* str.swift */,
 			);
@@ -149,8 +148,6 @@
 		156986781F1EC629004FE07A /* View */ = {
 			isa = PBXGroup;
 			children = (
-				15BE13921F2BF65F00878B11 /* DropShadow.swift */,
-				15BE13941F2D1C0900878B11 /* VerticallyCenterTextView.swift */,
 				15EC6E341F38015D00B2104F /* StringExtension.swift */,
 				15EC6E3C1F390BD500B2104F /* ImageFix.swift */,
 			);
@@ -178,22 +175,22 @@
 		15AB6EE01F14306600B901D5 /* Indexes */ = {
 			isa = PBXGroup;
 			children = (
-				155FEA891F4238070020D4B5 /* reddit_joke_index.json */,
+				151DD40D1F4CE08B0080B295 /* reddit_joke_index.json */,
+				155FEA8D1F4241750020D4B5 /* refined_quote_index.json */,
 			);
 			name = Indexes;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		15B720E71F0EE6BB0032D25D /* Data */ = {
 			isa = PBXGroup;
 			children = (
 				15AB6EE01F14306600B901D5 /* Indexes */,
 				15BFE3801F0DCFDF00D7A129 /* shortjokes.csv */,
-				155FEA8D1F4241750020D4B5 /* refined_quote_index.json */,
 				15BFE3841F0DD32A00D7A129 /* most_popular_quotes.json */,
 				15FF2D971F33D52C00B11FF6 /* best_rap_lines_tweets_tagged.csv */,
 			);
 			name = Data;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		15D6E4C61F26922F000A3151 /* Core Data */ = {
 			isa = PBXGroup;
@@ -208,6 +205,8 @@
 			children = (
 				CB855A2623AAEEAFC0F293FA /* Pods-GoogleVision.debug.xcconfig */,
 				0678FD5146F6810B637DD300 /* Pods-GoogleVision.release.xcconfig */,
+				CB19659C79617555F2F2B6BE /* Pods-Scrive.debug.xcconfig */,
+				B25B724F6971AEEDCA90A084 /* Pods-Scrive.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -218,7 +217,7 @@
 				155BE42A1F2309E20085F8B4 /* EVGPUImage2.framework */,
 				157EB2881F1C310600235B0F /* CoreGraphics.framework */,
 				1558C96E1F0C5E3B00C61233 /* Alamofire.framework */,
-				00E5283EBDC896E35726A8CE /* Pods_GoogleVision.framework */,
+				941599C274F7A35631A8DC4F /* Pods_Scrive.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -226,9 +225,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1558C9521F0C53FD00C61233 /* GoogleVision */ = {
+		1558C9521F0C53FD00C61233 /* Scrive */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1558C9651F0C53FD00C61233 /* Build configuration list for PBXNativeTarget "GoogleVision" */;
+			buildConfigurationList = 1558C9651F0C53FD00C61233 /* Build configuration list for PBXNativeTarget "Scrive" */;
 			buildPhases = (
 				B663FD4B3DD040C5FF6EBB68 /* [CP] Check Pods Manifest.lock */,
 				1558C94F1F0C53FD00C61233 /* Sources */,
@@ -241,7 +240,7 @@
 			);
 			dependencies = (
 			);
-			name = GoogleVision;
+			name = Scrive;
 			productName = GoogleVision;
 			productReference = 1558C9531F0C53FD00C61233 /* Scrive.app */;
 			productType = "com.apple.product-type.application";
@@ -264,7 +263,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1558C94E1F0C53FD00C61233 /* Build configuration list for PBXProject "GoogleVision" */;
+			buildConfigurationList = 1558C94E1F0C53FD00C61233 /* Build configuration list for PBXProject "Scrive" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -277,7 +276,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1558C9521F0C53FD00C61233 /* GoogleVision */,
+				1558C9521F0C53FD00C61233 /* Scrive */,
 			);
 		};
 /* End PBXProject section */
@@ -288,13 +287,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				155FEA8E1F4241750020D4B5 /* refined_quote_index.json in Resources */,
-				155FEA8A1F4238070020D4B5 /* reddit_joke_index.json in Resources */,
 				15FF2D981F33D52C00B11FF6 /* best_rap_lines_tweets_tagged.csv in Resources */,
 				1558C9611F0C53FD00C61233 /* LaunchScreen.storyboard in Resources */,
+				151DD40E1F4CE08B0080B295 /* reddit_joke_index.json in Resources */,
 				1558C95E1F0C53FD00C61233 /* Assets.xcassets in Resources */,
 				155FEA8C1F423C580020D4B5 /* reddit_jokes.json in Resources */,
 				1558C95C1F0C53FD00C61233 /* Main.storyboard in Resources */,
 				15BFE3811F0DCFDF00D7A129 /* shortjokes.csv in Resources */,
+				151DD4101F4CE1710080B295 /* Info.plist in Resources */,
 				155FEA821F4118660020D4B5 /* refined_quotes.json in Resources */,
 				15BFE3851F0DD32A00D7A129 /* most_popular_quotes.json in Resources */,
 			);
@@ -315,7 +315,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleVision/Pods-GoogleVision-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Scrive/Pods-Scrive-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8E3D6EBB4159836EF866A19A /* [CP] Embed Pods Frameworks */ = {
@@ -330,7 +330,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleVision/Pods-GoogleVision-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Scrive/Pods-Scrive-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B663FD4B3DD040C5FF6EBB68 /* [CP] Check Pods Manifest.lock */ = {
@@ -358,12 +358,10 @@
 				1508C6641F2573F600A3FF08 /* CaptionManager.xcdatamodeld in Sources */,
 				15D6E4CA1F26CB00000A3151 /* str.swift in Sources */,
 				1558C9591F0C53FD00C61233 /* ViewController.swift in Sources */,
-				15BE13951F2D1C0900878B11 /* VerticallyCenterTextView.swift in Sources */,
+				151DD40A1F4CD6C20080B295 /* GenerateCaptions.swift in Sources */,
 				1558C9571F0C53FD00C61233 /* AppDelegate.swift in Sources */,
 				1558C9691F0C5A6B00C61233 /* Constants.swift in Sources */,
-				15BE13931F2BF65F00878B11 /* DropShadow.swift in Sources */,
 				15AB6EDA1F14190A00B901D5 /* CurrentWord.swift in Sources */,
-				15C348181F0ED8F7009E3B24 /* GenerateCaptions.swift in Sources */,
 				15EC6E3D1F390BD500B2104F /* ImageFix.swift in Sources */,
 				1558C96D1F0C5D3B00C61233 /* CurrentImage.swift in Sources */,
 				15BFE3831F0DD07C00D7A129 /* csv.swift in Sources */,
@@ -382,7 +380,8 @@
 				1558C95B1F0C53FD00C61233 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
+			path = Scrive;
+			sourceTree = SOURCE_ROOT;
 		};
 		1558C95F1F0C53FD00C61233 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -390,7 +389,8 @@
 				1558C9601F0C53FD00C61233 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
+			path = Scrive;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXVariantGroup section */
 
@@ -411,10 +411,10 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = NO;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = NO;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -425,7 +425,7 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -463,10 +463,10 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = NO;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = NO;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -476,7 +476,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -494,7 +494,7 @@
 		};
 		1558C9661F0C53FD00C61233 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB855A2623AAEEAFC0F293FA /* Pods-GoogleVision.debug.xcconfig */;
+			baseConfigurationReference = CB19659C79617555F2F2B6BE /* Pods-Scrive.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -502,16 +502,12 @@
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/GoogleVision",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = GoogleVision/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Scrive/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
+				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jamesdorfman.scrive;
 				PRODUCT_NAME = Scrive;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -523,7 +519,7 @@
 		};
 		1558C9671F0C53FD00C61233 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0678FD5146F6810B637DD300 /* Pods-GoogleVision.release.xcconfig */;
+			baseConfigurationReference = B25B724F6971AEEDCA90A084 /* Pods-Scrive.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -531,16 +527,12 @@
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/GoogleVision",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = GoogleVision/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Scrive/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
+				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jamesdorfman.scrive;
 				PRODUCT_NAME = Scrive;
 				SWIFT_REFLECTION_METADATA_LEVEL = none;
@@ -552,7 +544,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1558C94E1F0C53FD00C61233 /* Build configuration list for PBXProject "GoogleVision" */ = {
+		1558C94E1F0C53FD00C61233 /* Build configuration list for PBXProject "Scrive" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1558C9631F0C53FD00C61233 /* Debug */,
@@ -561,7 +553,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1558C9651F0C53FD00C61233 /* Build configuration list for PBXNativeTarget "GoogleVision" */ = {
+		1558C9651F0C53FD00C61233 /* Build configuration list for PBXNativeTarget "Scrive" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1558C9661F0C53FD00C61233 /* Debug */,

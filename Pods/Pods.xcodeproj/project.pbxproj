@@ -62,7 +62,6 @@
 		240FA1CEFEB5E3A5F4D04CE4E25E8B82 /* NVActivityIndicatorAnimationBallTrianglePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9066C2B64B5905A6933BE1334DE4DA /* NVActivityIndicatorAnimationBallTrianglePath.swift */; };
 		2673D81A6F2C14C2BB5F4D267C274C0B /* LightenBlend_GLES.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 5BF046AB7D01D3F5F6C4D8FBC71D321B /* LightenBlend_GLES.fsh */; };
 		285FE67BD0482618CF6BD9C01C04BD48 /* Erosion3_GL.fsh in Resources */ = {isa = PBXBuildFile; fileRef = BBFF9D86FA40A3E071615194CA0EBAD9 /* Erosion3_GL.fsh */; };
-		296AA5959D8D472C022D7F9D99387901 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD7A5E66F65E75B080C4C875FA22DA8 /* Foundation.framework */; };
 		2A1CCF1967EA67E323312DF6FE57519E /* ColorDodgeBlend.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A196CCB0D14ED2694BB3EC9E2589D6 /* ColorDodgeBlend.swift */; };
 		2A45E731E7CEBBC4DEA8F6FF531C3B6E /* HistogramEqualizationBlue_GL.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 15AD474D394B8D8B0B352D8A44640DF9 /* HistogramEqualizationBlue_GL.fsh */; };
 		2AC0766C243F5D5273206328AE0BE0B2 /* DivideBlend_GLES.fsh in Resources */ = {isa = PBXBuildFile; fileRef = B99CB6C356345F75F48B02FFC8F3F80B /* DivideBlend_GLES.fsh */; };
@@ -112,7 +111,6 @@
 		3F526598F7F6906C0C32284A9B38EEF9 /* OpenGLRendering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B4083537017081B31AE6C584BC17B6 /* OpenGLRendering.swift */; };
 		3F623A3A370309EB925E17F3D1B133A1 /* CircleGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8F0D1A0B6F82AF2FF920217611EF53 /* CircleGenerator.swift */; };
 		3FDD2FB3C22EFF110A702F12C7B8DFED /* PrewittEdgeDetection_GLES.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 890448581B85EEB4D8799651DCE6BC17 /* PrewittEdgeDetection_GLES.fsh */; };
-		40912441D0C8DB52F3F8C1F390C10C80 /* Pods-GoogleVision-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C79BF6497BE524C7F480721C6727108 /* Pods-GoogleVision-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40D3ED283E1D21414538AECCBDECDAE1 /* LevelsAdjustment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B597389438287AADE6D7DEDBE9FE829 /* LevelsAdjustment.swift */; };
 		41426368986FBAC172CCA0D503AE9D2C /* ColorInvert_GL.fsh in Resources */ = {isa = PBXBuildFile; fileRef = BD29FA59620B5BC0DB665BC63A5ED412 /* ColorInvert_GL.fsh */; };
 		414A57CDB9FEE901D9670DC6C5738B7A /* DirectionalSobelEdgeDetection_GL.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 9D92C4269B3F516A9DD41B0248AB8300 /* DirectionalSobelEdgeDetection_GL.fsh */; };
@@ -145,6 +143,7 @@
 		4FEC7FA3E0A11E6E44BBB344BFEDA06B /* RGBAdjustment_GL.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 03DCF563128EC0E1A8C0FBAC4305CB04 /* RGBAdjustment_GL.fsh */; };
 		4FF8EC78992094BAD6B6D2B67566FB07 /* Solarize_GLES.fsh in Resources */ = {isa = PBXBuildFile; fileRef = B79F22CC3CE6DCCFF3440A3DD6468FAB /* Solarize_GLES.fsh */; };
 		512BEA3D56BD6B507F21FC2A9848968F /* YUVConversionVideoRange_GLES.fsh in Resources */ = {isa = PBXBuildFile; fileRef = AC9334B2F19477D2C53F79F320FD79F9 /* YUVConversionVideoRange_GLES.fsh */; };
+		519DFFAA0453956388DDED52EFA0C27F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD7A5E66F65E75B080C4C875FA22DA8 /* Foundation.framework */; };
 		5263F827AEE23945BFDE75D36A843278 /* NormalBlend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3386FBFFE4F427B32B6AEDF50DBF49 /* NormalBlend.swift */; };
 		52A144531CA0E25492AFD689F01933B3 /* ThresholdSobelEdgeDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93C851FEC0DA9B7967F134345EADA34 /* ThresholdSobelEdgeDetection.swift */; };
 		52B1B024CF9CAC535BF793C37628BA5A /* MultiplyBlend_GL.fsh in Resources */ = {isa = PBXBuildFile; fileRef = B47FF463D85E4A0A17A8A3A856FC4EA8 /* MultiplyBlend_GL.fsh */; };
@@ -177,6 +176,7 @@
 		626E80B1203316B302D6DBFA9EC5FFBA /* LinearBurnBlend.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91940A80D7386E74DE4B2C27AD90ACB /* LinearBurnBlend.swift */; };
 		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61246E2DEFC8B76A7366D737CCE299A /* ServerTrustPolicy.swift */; };
 		6303741B3D0D54964AA6CFB236170331 /* PolarPixellate_GL.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 3D8FC50A5DF485B97AD0DC77556F5777 /* PolarPixellate_GL.fsh */; };
+		634E2D892272B1F0AB3575CCA6F92877 /* Pods-Scrive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABED447CC89377265608951BAE2D15B4 /* Pods-Scrive-dummy.m */; };
 		6420A59E9AB6A497B471A1D29FF4CEE3 /* SaturationBlend_GLES.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 916872F9872A19BF8E2A947E2E23C728 /* SaturationBlend_GLES.fsh */; };
 		6528E2C2390F36F74675F56DE81CF971 /* SobelEdgeDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8B483A65A3EFD58C134B96480AF9BB /* SobelEdgeDetection.swift */; };
 		65F3E6E6C6168007A85463590F21F2CF /* PolkaDot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00576E9E60A919677E98646C681520AA /* PolkaDot.swift */; };
@@ -192,6 +192,7 @@
 		6A6A11D8C039DC3D787673FDDF333949 /* ColorLocalBinaryPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A2E3E64A56FBFCAE8D992A554E9F84 /* ColorLocalBinaryPattern.swift */; };
 		6B34348C1BB33AC3E9B9431F7C5BB532 /* HistogramAccumulation_GLES.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 700A585002DB06BCC8F6B66170BD2F38 /* HistogramAccumulation_GLES.fsh */; };
 		6BB0C9A9BC1C9791301677BA5D674005 /* SaturationAdjustment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076DE6C422A0941FE19B9658F26AE184 /* SaturationAdjustment.swift */; };
+		6BB46072B24D8F9687E9785D2E016170 /* TTSegmentedControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A14391C974FBCDCC5845C59D083F567C /* TTSegmentedControl-dummy.m */; };
 		6BE939221FC48D31564F0FF307D62F4E /* LanczosResampling.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49E946FDFE9AD7F0222EFB111AAEFF1 /* LanczosResampling.swift */; };
 		6BE9B76B7E3B7F27403F13CB7AE492A7 /* PictureOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AB340FA767ACC5288C917A9CB5AB59 /* PictureOutput.swift */; };
 		6D2582670E768A487EE84BD7838264C3 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C040774190732435A4E72C9D30EC06 /* Color.swift */; };
@@ -237,10 +238,12 @@
 		7F93FB03B31ACE327CB081EA57587556 /* ThresholdSketch_GL.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 5D2AF64F1DBAFE3E2D5C2D946E9E3839 /* ThresholdSketch_GL.fsh */; };
 		7FEE370B6529A919640173C97006CFF1 /* NVActivityIndicatorAnimationBallZigZag.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28464458424E0F50FFFA829D8A327CF /* NVActivityIndicatorAnimationBallZigZag.swift */; };
 		801A4D647A212DB365DDFE25C0053B87 /* SubtractBlend_GL.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4A23119770F44A06E432DAF066FB7FC2 /* SubtractBlend_GL.fsh */; };
+		80C441EDAB8A62B260CA816EB369CD13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD7A5E66F65E75B080C4C875FA22DA8 /* Foundation.framework */; };
 		823E62668C61A73A3290C4575D99D337 /* ColorBlend_GL.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 778A6C4BE384AD61C80E5D12836EFC5D /* ColorBlend_GL.fsh */; };
 		8298591BF3ED71FE7A7C920E19D16D92 /* ContrastAdjustment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A321128BC8A1EE22FBC11082594756 /* ContrastAdjustment.swift */; };
 		83EB5A2879B513A788C937824FE5EDED /* Dilation3_GL.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 81706E82BB40886FC983F28714D37E17 /* Dilation3_GL.fsh */; };
 		8501C56A979C09DC2700800FD342DB2D /* NVActivityIndicatorAnimationBallRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949BE08347A944263742A99969B972DD /* NVActivityIndicatorAnimationBallRotate.swift */; };
+		856AE5A96EBAF4042D77BEF029B8E877 /* TTSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1563F7A87BA0C439B52FCA29C8B1F506 /* TTSegmentedControl.swift */; };
 		8629EC3ECD33EEDA02B16CE1AA3B9951 /* NormalBlend_GL.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 6083F227687474FFFA7C9749716B93B2 /* NormalBlend_GL.fsh */; };
 		86D77091B181F94240408C6C843B0630 /* Vibrance_GL.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 6CC91C636934C3DF84E05CE85CD0D1F2 /* Vibrance_GL.fsh */; };
 		87BCF1622F215BD96520BB64E5E94091 /* NVActivityIndicatorAnimationBallPulseSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3C54E235A8579A0E3CAB3B3F4DDC00 /* NVActivityIndicatorAnimationBallPulseSync.swift */; };
@@ -297,17 +300,14 @@
 		A1053740654BDB1649FDF2052B6D10D3 /* MotionBlur_GLES.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 93B1DE7554B4C6AE32EDD71281532DD0 /* MotionBlur_GLES.fsh */; };
 		A14036702B60EE3DF47A696F9272F825 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09EBA28307771F62A67DBD8AC07C7BF /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */; };
 		A1818038D673C745F909D2F8EC80EE50 /* OpeningFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3CE718A5BBF9EFC4517CB47A2A1D56 /* OpeningFilter.swift */; };
-		A2012AE0E3B71AA2FD3BCD262722B595 /* TTSegmentedControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A14391C974FBCDCC5845C59D083F567C /* TTSegmentedControl-dummy.m */; };
 		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0C2B640CA46EC0BB4909A4F69F56F3 /* NetworkReachabilityManager.swift */; };
 		A2BC2034FD014472E1EC4969C523B521 /* DirectionalSobelEdgeDetection_GLES.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 0F5C384B97A0575251D99864ACAF6244 /* DirectionalSobelEdgeDetection_GLES.fsh */; };
 		A32FEE5500A54B946BEF38D2468D35C7 /* GlassSphere_GL.fsh in Resources */ = {isa = PBXBuildFile; fileRef = DE9DC5351E6075E1B1EA1EF7447BAB02 /* GlassSphere_GL.fsh */; };
 		A4219B5BC63796D427EAE641328C9ED6 /* YUVConversionFullRangeUVPlanar_GLES.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 00AF37CF4AAB9E3D260752D4CA75DAA0 /* YUVConversionFullRangeUVPlanar_GLES.fsh */; };
 		A42535C30E92573EC616FF704142B88D /* LuminanceThreshold_GL.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4D2A4925619B63912A1C8995C5360913 /* LuminanceThreshold_GL.fsh */; };
-		A5121A15A29CEC1D28CEC2F1DA9FE712 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD7A5E66F65E75B080C4C875FA22DA8 /* Foundation.framework */; };
 		A532153BC60469E7BD860A33ACB13764 /* SingleComponentGaussianBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3660C1308F1CA43C7DA2E6C74D8B4EF /* SingleComponentGaussianBlur.swift */; };
 		A59501865DD197CB9DD29A62D160623F /* ChromaKey_GLES.fsh in Resources */ = {isa = PBXBuildFile; fileRef = AD281C52E4DA65B53F5FF907E31197AA /* ChromaKey_GLES.fsh */; };
 		A6439FD3B3E87E5699CE2C297E01DD1A /* Brightness_GLES.fsh in Resources */ = {isa = PBXBuildFile; fileRef = A1177F17B8E2F767A7FD27B5A87FE40C /* Brightness_GLES.fsh */; };
-		A664DE1DEBB198F30062A1D9629B59B7 /* Pods-GoogleVision-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6D84F9478904A34F6DE518AD78B710 /* Pods-GoogleVision-dummy.m */; };
 		A6F954327963DA3462EC0B201FBC9AFF /* Halftone_GL.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 984E15E29E8C6311F350DC9468CDE198 /* Halftone_GL.fsh */; };
 		A713A15387FC154DCCF4F9C848513BF7 /* SepiaToneFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180FF88625415CCA43CA10C9D1A90635 /* SepiaToneFilter.swift */; };
 		A743F8A820C29302347AB292249618A0 /* DarkenBlend_GLES.fsh in Resources */ = {isa = PBXBuildFile; fileRef = A6FA36336DE36D387E97E9CE0C43C3E0 /* DarkenBlend_GLES.fsh */; };
@@ -327,7 +327,6 @@
 		AEAAA8ABDFCF2497AD6B4955392E659C /* LightenBlend.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE569F46A4AC6A2B53B43B5ED0382F45 /* LightenBlend.swift */; };
 		AEC875604B480BE726BA6CE18DB5AA6F /* NVActivityIndicatorAnimationCubeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A76BB3BD056F655356450C4167AD5E /* NVActivityIndicatorAnimationCubeTransition.swift */; };
 		AF8888F5F8E0A58F3C6A997748E97CAB /* SourceOverBlend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864327C126F4388175A1FF51A90EFA07 /* SourceOverBlend.swift */; };
-		B0DA0E558C5FC753F18D85E25EB31F4A /* TTSegmentedControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D41FFA5F482DF642F15BAAC9F9139DD3 /* TTSegmentedControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1A9C03E815BE2DEA228039BD2C662A9 /* HistogramDisplay_GL.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 9E9BF495D8A405EC91DE74125EBBB320 /* HistogramDisplay_GL.fsh */; };
 		B1F728AEE2945DF2B3C06016D06702AA /* UnsharpMask_GLES.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 350330C3C548521B8E6903BEF62BD85F /* UnsharpMask_GLES.fsh */; };
 		B260FC09A820D0E9DBE37CEEC3913C5F /* RGBAdjustmentFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1F0C24857A8283CEA6583DEEB12653 /* RGBAdjustmentFilter.swift */; };
@@ -355,7 +354,6 @@
 		BE55A222F51B605A6BB4BC339CF5F2D5 /* Opacity_GL.fsh in Resources */ = {isa = PBXBuildFile; fileRef = E16A5B6D09CF5CD9218484C70AD2588A /* Opacity_GL.fsh */; };
 		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B983AC0394B4D0E8F91E585CB515447 /* ParameterEncoding.swift */; };
 		BF30C7FDD3BE9DDC8F1C4650FE2E1C27 /* YUVConversionVideoRange_GL.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F9AE43DA3E9FD35A451DBFFE623B15A5 /* YUVConversionVideoRange_GL.fsh */; };
-		BF71A678A5E6E0F3B576C4A09C1AEAAF /* TTSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1563F7A87BA0C439B52FCA29C8B1F506 /* TTSegmentedControl.swift */; };
 		BFFE62B124ADEC9A3F8DB5503CB3234B /* Halftone_GLES.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 195E14BC7FB95A7C9575FF8E6898B10C /* Halftone_GLES.fsh */; };
 		C0A3059735A802E12203D8CF3473B3E7 /* Solarize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43685C6F99D1F1FE9CA071D744A80EE4 /* Solarize.swift */; };
 		C0E2471D6ED9E8C83B8E6715FF5FEE21 /* WhiteBalance.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1BB87DCCFAD8D12FA70B692E7EA608 /* WhiteBalance.swift */; };
@@ -379,7 +377,7 @@
 		CAAA6E4DAAFC58332E1BF03DD66F9BF4 /* UnsharpMask_GL.fsh in Resources */ = {isa = PBXBuildFile; fileRef = B37E4971AC19A88D248053D838530EC3 /* UnsharpMask_GL.fsh */; };
 		CAE0EFC41DC108FEE67544D0E6851571 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD7A5E66F65E75B080C4C875FA22DA8 /* Foundation.framework */; };
 		CB0D40BE7ADDDDC975E933296CAB652A /* Erosion4_GL.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F445897E1CDB9E69D73570C6EA11C1B9 /* Erosion4_GL.fsh */; };
-		CB611D34981BA9C9944A1B1D49318A6C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6639EFE84EA6389ABBDFFE05659150FE /* UIKit.framework */; };
+		CB35C840EFA19CAF345FE9B57D9185E4 /* Pods-Scrive-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D3CFACAE2C43B4E59BC3A414FDB86B /* Pods-Scrive-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAED6A2A634B872BDDA889C2DA26D56 /* Response.swift */; };
 		CBDE0E39969EC5926EC1680FB9C261E4 /* StretchDistortion_GL.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 8486A78DE8D868BA7BB83138F7DD1BAE /* StretchDistortion_GL.fsh */; };
 		CC84B19AFB0EFC295C556CDF25C07F8F /* TextureSamplingOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A87449119CBEC9FC536AD04582F240 /* TextureSamplingOperation.swift */; };
@@ -420,9 +418,11 @@
 		DD905B4B64458203CA4B841061B0E584 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F808F9FEEA278D5CC5D29A851DBA94B3 /* OpenGLES.framework */; };
 		DDE923B3CE0C8FE3D07B9D1932DBD0E7 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E3FF1D68C8287DE64CF58A035E1A28 /* Matrix.swift */; };
 		DEF2531FD53C84371A1E1A76E33C983C /* NobleCornerDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298FEF550D7EF8158FA0712639BFDAA4 /* NobleCornerDetector.swift */; };
+		DF45C044693FF7DC7EC55CBEA9412BAB /* TTSegmentedControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D41FFA5F482DF642F15BAAC9F9139DD3 /* TTSegmentedControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DFB88D2144CEDFAA2505DF53ADEA5CFF /* ThresholdEdgeDetection_GL.fsh in Resources */ = {isa = PBXBuildFile; fileRef = EF9A422E611B92028CD48EB8FD59402A /* ThresholdEdgeDetection_GL.fsh */; };
 		E0544C0E4C6339EBBFA0D8B2CE486ECC /* LinearBurnBlend_GL.fsh in Resources */ = {isa = PBXBuildFile; fileRef = BCA3C09736092A6FD30CEA4C6617C029 /* LinearBurnBlend_GL.fsh */; };
 		E188352A8769459C7B803FD05ED511A0 /* Dilation4_GL.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 46E6A6EE5664DF7026F49C32630DF7E0 /* Dilation4_GL.fsh */; };
+		E2346500BDCED33358F4BE2A5F9913F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6639EFE84EA6389ABBDFFE05659150FE /* UIKit.framework */; };
 		E288FBA811BFE2E802A0776E4FF090F3 /* AddBlend_GLES.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F8443B5BB6CB6CC890754B0D2C3C9868 /* AddBlend_GLES.fsh */; };
 		E3A5538788793D930ADDD56BB5361A63 /* PrewittEdgeDetection_GL.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 950C63EFB24630119CD8F5868E2C800F /* PrewittEdgeDetection_GL.fsh */; };
 		E3BA27147B6FB7E9BFA2FD651461A207 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD7A5E66F65E75B080C4C875FA22DA8 /* Foundation.framework */; };
@@ -476,33 +476,33 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		08D183A5AE3FD2E50C06A697CAB86E91 /* PBXContainerItemProxy */ = {
+		35BEBE524CB57FC3EC290DCE2A0AC4FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 16B226562714780CFDE2008319B56073;
 			remoteInfo = EVGPUImage2;
 		};
-		13C14D290071D1741A10B98025D6C78A /* PBXContainerItemProxy */ = {
+		7D5C8F84EC0D8638E07636A02E5D7503 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
-			remoteInfo = Alamofire;
-		};
-		70EE8812F0F6735BC9C317368C5F746A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6826D1B96C510C6348AD05DFB7CF1E22;
+			remoteGlobalIDString = 926287620EF6A428BE42DBC098BD5AF1;
 			remoteInfo = TTSegmentedControl;
 		};
-		ACF4275E31CF87BDA6E6D138EE4150EB /* PBXContainerItemProxy */ = {
+		8482A6BB0F3775BA56A35E594F25D601 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3EDFE4052B5DE7D509935AC0774CB135;
 			remoteInfo = NVActivityIndicatorView;
+		};
+		F8B431980A8266BF8BC38561DFB1E9EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
+			remoteInfo = Alamofire;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -525,7 +525,6 @@
 		06E5C8ACB9BA8A8A25686A3B07E1ABBB /* MotionComparison_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = MotionComparison_GL.fsh; path = framework/Source/Operations/Shaders/MotionComparison_GL.fsh; sourceTree = "<group>"; };
 		076DE6C422A0941FE19B9658F26AE184 /* SaturationAdjustment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SaturationAdjustment.swift; path = framework/Source/Operations/SaturationAdjustment.swift; sourceTree = "<group>"; };
 		082ECAD6C50E1B64516D4FD9F2066E01 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		085C3FEDA0B330DCBB0D3BFB93551142 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		08A8C329D24681EC700B834BB2D67E8F /* WeakPixelInclusion_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = WeakPixelInclusion_GLES.fsh; path = framework/Source/Operations/Shaders/WeakPixelInclusion_GLES.fsh; sourceTree = "<group>"; };
 		092B4B58972B1E60996097F061910AC6 /* NVActivityIndicatorView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NVActivityIndicatorView.xcconfig; sourceTree = "<group>"; };
 		09DC28180F674F88B654FB7DA3435AB6 /* Solarize_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Solarize_GL.fsh; path = framework/Source/Operations/Shaders/Solarize_GL.fsh; sourceTree = "<group>"; };
@@ -570,6 +569,7 @@
 		1C79FD15B22AC93F96FB6DF49530F501 /* Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Size.swift; path = framework/Source/Size.swift; sourceTree = "<group>"; };
 		1D1313888C7287A0D06255E9F7BAAA05 /* OpenGLContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpenGLContext.swift; path = framework/Source/iOS/OpenGLContext.swift; sourceTree = "<group>"; };
 		1D2F7CAED98A6AC5C8EA96EE764A8A91 /* GammaAdjustment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GammaAdjustment.swift; path = framework/Source/Operations/GammaAdjustment.swift; sourceTree = "<group>"; };
+		1F091DA581498347820576A24EB4414F /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F8EBC34A69A67909168537502631ED5 /* DirectionalNonMaximumSuppression_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = DirectionalNonMaximumSuppression_GLES.fsh; path = framework/Source/Operations/Shaders/DirectionalNonMaximumSuppression_GLES.fsh; sourceTree = "<group>"; };
 		203AB58503FF07229FBBE1BD187CD52C /* HistogramEqualizationRGB_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = HistogramEqualizationRGB_GL.fsh; path = framework/Source/Operations/Shaders/HistogramEqualizationRGB_GL.fsh; sourceTree = "<group>"; };
 		20D3AAA44F89F5B3F629B58AB903A548 /* NVActivityIndicatorAnimationBallScaleMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleMultiple.swift; path = NVActivityIndicatorView/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScaleMultiple.swift; sourceTree = "<group>"; };
@@ -579,6 +579,8 @@
 		21A76BB3BD056F655356450C4167AD5E /* NVActivityIndicatorAnimationCubeTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationCubeTransition.swift; path = NVActivityIndicatorView/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationCubeTransition.swift; sourceTree = "<group>"; };
 		21B011E64B737825AD4C387F290ACB98 /* ChromaKeyBlend.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChromaKeyBlend.swift; path = framework/Source/Operations/ChromaKeyBlend.swift; sourceTree = "<group>"; };
 		2229A3B4A8E92E864DCEDB56F89CF530 /* FillMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FillMode.swift; path = framework/Source/FillMode.swift; sourceTree = "<group>"; };
+		22F8810909B02D072DEE382788DDCF9F /* EVGPUImage2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EVGPUImage2.framework; path = EVGPUImage2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23D3CFACAE2C43B4E59BC3A414FDB86B /* Pods-Scrive-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Scrive-umbrella.h"; sourceTree = "<group>"; };
 		240C685557FF2775B442D4DC9BB6AAD8 /* Hue_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Hue_GLES.fsh; path = framework/Source/Operations/Shaders/Hue_GLES.fsh; sourceTree = "<group>"; };
 		245F5A967F3ACF608291D87CA6518B47 /* ColorSwizzling_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = ColorSwizzling_GL.fsh; path = framework/Source/Operations/Shaders/ColorSwizzling_GL.fsh; sourceTree = "<group>"; };
 		2531750AD77F7C35094C38EA7E2DE3F8 /* HistogramEqualizationLuminance_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = HistogramEqualizationLuminance_GLES.fsh; path = framework/Source/Operations/Shaders/HistogramEqualizationLuminance_GLES.fsh; sourceTree = "<group>"; };
@@ -590,14 +592,16 @@
 		29E228177000DF7110CA12513CE8273E /* ColorLocalBinaryPattern_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = ColorLocalBinaryPattern_GLES.fsh; path = framework/Source/Operations/Shaders/ColorLocalBinaryPattern_GLES.fsh; sourceTree = "<group>"; };
 		2ADD6B05FC3CD691DA17B4BE22B99F3E /* Levels_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Levels_GLES.fsh; path = framework/Source/Operations/Shaders/Levels_GLES.fsh; sourceTree = "<group>"; };
 		2C423E9EFD49EB74EC9CB7D7C6768DC3 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		2CA5529125AE5D6DA8AC6D641EE18634 /* Pods-Scrive.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Scrive.modulemap"; sourceTree = "<group>"; };
 		2E815D5C60C652DA029C5E3B0533E47E /* Monochrome_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Monochrome_GL.fsh; path = framework/Source/Operations/Shaders/Monochrome_GL.fsh; sourceTree = "<group>"; };
-		2EA0AB6C4697F25C17D0B04548C4858B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EE9FF2ABA79445214D825ED55E6F0A5 /* RawDataInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RawDataInput.swift; path = framework/Source/RawDataInput.swift; sourceTree = "<group>"; };
 		2F3C54E235A8579A0E3CAB3B3F4DDC00 /* NVActivityIndicatorAnimationBallPulseSync.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulseSync.swift; path = NVActivityIndicatorView/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallPulseSync.swift; sourceTree = "<group>"; };
 		2F657C6071DCD886718DE8FC2562CBF9 /* Vignette.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Vignette.swift; path = framework/Source/Operations/Vignette.swift; sourceTree = "<group>"; };
 		2FC7459D7C6F52286E08D3D10988059D /* Toon_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Toon_GLES.fsh; path = framework/Source/Operations/Shaders/Toon_GLES.fsh; sourceTree = "<group>"; };
 		2FDDE3CB8508F811645E4A5B2A52D45F /* YUVConversionFullRange_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = YUVConversionFullRange_GLES.fsh; path = framework/Source/Operations/Shaders/YUVConversionFullRange_GLES.fsh; sourceTree = "<group>"; };
 		301C8430C279099A233FE1702DDF8B37 /* BasicOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BasicOperation.swift; path = framework/Source/BasicOperation.swift; sourceTree = "<group>"; };
+		30265F62554324A9AF959F9FF8D5AF71 /* Pods-Scrive-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Scrive-resources.sh"; sourceTree = "<group>"; };
+		30D74A5F03B5D33FC522C83F59DA89CC /* Pods-Scrive-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Scrive-frameworks.sh"; sourceTree = "<group>"; };
 		31CA66D5685B0C908E0A1C8B3E28D495 /* AdaptiveThreshold.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdaptiveThreshold.swift; path = framework/Source/Operations/AdaptiveThreshold.swift; sourceTree = "<group>"; };
 		32FF1B50FCA6936892E1B76DC75117BD /* ScreenBlend_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = ScreenBlend_GL.fsh; path = framework/Source/Operations/Shaders/ScreenBlend_GL.fsh; sourceTree = "<group>"; };
 		3324694F4F8A25AD6BC1B90F769F65FD /* MovieOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MovieOutput.swift; path = framework/Source/iOS/MovieOutput.swift; sourceTree = "<group>"; };
@@ -615,15 +619,12 @@
 		39C66BB59D4B0DDDF9182B7F5901D96D /* HistogramEqualization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HistogramEqualization.swift; path = framework/Source/Operations/HistogramEqualization.swift; sourceTree = "<group>"; };
 		3A893A39B3B7BECE8B44C5BDD666CD5D /* SphereRefraction_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = SphereRefraction_GLES.fsh; path = framework/Source/Operations/Shaders/SphereRefraction_GLES.fsh; sourceTree = "<group>"; };
 		3B0369280D82D2E32558067372D1575D /* DissolveBlend.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DissolveBlend.swift; path = framework/Source/Operations/DissolveBlend.swift; sourceTree = "<group>"; };
-		3C79BF6497BE524C7F480721C6727108 /* Pods-GoogleVision-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GoogleVision-umbrella.h"; sourceTree = "<group>"; };
 		3C9D7BDAD2136329D27B67AAA180AD77 /* Erosion4_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Erosion4_GLES.fsh; path = framework/Source/Operations/Shaders/Erosion4_GLES.fsh; sourceTree = "<group>"; };
 		3D226D2AA8B78DA1FF679602AB52046D /* MotionBlur_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = MotionBlur_GL.fsh; path = framework/Source/Operations/Shaders/MotionBlur_GL.fsh; sourceTree = "<group>"; };
 		3D8FC50A5DF485B97AD0DC77556F5777 /* PolarPixellate_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = PolarPixellate_GL.fsh; path = framework/Source/Operations/Shaders/PolarPixellate_GL.fsh; sourceTree = "<group>"; };
 		3FA333184F9D5770AABBA2A84B4425FE /* Laplacian_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Laplacian_GLES.fsh; path = framework/Source/Operations/Shaders/Laplacian_GLES.fsh; sourceTree = "<group>"; };
 		3FF20EF1C8B8F464FD9418C382321EAE /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		419BC2C56AF911BDFCF1712AD2AD4A0F /* Pods-GoogleVision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleVision.release.xcconfig"; sourceTree = "<group>"; };
 		41B4083537017081B31AE6C584BC17B6 /* OpenGLRendering.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpenGLRendering.swift; path = framework/Source/OpenGLRendering.swift; sourceTree = "<group>"; };
-		422560F753F7D3DCEEF27BAE7FB9972A /* Pods_GoogleVision.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GoogleVision.framework; path = "Pods-GoogleVision.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42AB340FA767ACC5288C917A9CB5AB59 /* PictureOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PictureOutput.swift; path = framework/Source/iOS/PictureOutput.swift; sourceTree = "<group>"; };
 		42F88E0E29A4C7E811AEE77C934CF066 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		43516325C1ADF2E55D17333C87AC2ED7 /* SwirlDistortion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwirlDistortion.swift; path = framework/Source/Operations/SwirlDistortion.swift; sourceTree = "<group>"; };
@@ -644,6 +645,7 @@
 		4961C7BC827DF88208D3012D5351391F /* HistogramEqualizationRed_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = HistogramEqualizationRed_GL.fsh; path = framework/Source/Operations/Shaders/HistogramEqualizationRed_GL.fsh; sourceTree = "<group>"; };
 		4A23119770F44A06E432DAF066FB7FC2 /* SubtractBlend_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = SubtractBlend_GL.fsh; path = framework/Source/Operations/Shaders/SubtractBlend_GL.fsh; sourceTree = "<group>"; };
 		4A3386FBFFE4F427B32B6AEDF50DBF49 /* NormalBlend.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NormalBlend.swift; path = framework/Source/Operations/NormalBlend.swift; sourceTree = "<group>"; };
+		4A48616F25BF0527DD1E77BE4BE54CF3 /* NVActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NVActivityIndicatorView.framework; path = NVActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A48BD931ABED83CD724C8E7E6A90F98 /* Hue_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Hue_GL.fsh; path = framework/Source/Operations/Shaders/Hue_GL.fsh; sourceTree = "<group>"; };
 		4AC192978ECC70312EEDAB1696BEA0EE /* WeakPixelInclusion_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = WeakPixelInclusion_GL.fsh; path = framework/Source/Operations/Shaders/WeakPixelInclusion_GL.fsh; sourceTree = "<group>"; };
 		4B8C57B0549086040665BC638B7B9B14 /* SphereRefraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SphereRefraction.swift; path = framework/Source/Operations/SphereRefraction.swift; sourceTree = "<group>"; };
@@ -653,7 +655,8 @@
 		4D78ED71CC245E4A70C4129D965E7468 /* GaussianBlur.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GaussianBlur.swift; path = framework/Source/Operations/GaussianBlur.swift; sourceTree = "<group>"; };
 		4DD48F30B859F800836249EBAFB2A792 /* PolkaDot_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = PolkaDot_GL.fsh; path = framework/Source/Operations/Shaders/PolkaDot_GL.fsh; sourceTree = "<group>"; };
 		4F690B84D55734B667A8DE00E8E62A7B /* ThresholdSketch_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = ThresholdSketch_GLES.fsh; path = framework/Source/Operations/Shaders/ThresholdSketch_GLES.fsh; sourceTree = "<group>"; };
-		4FAC47A1BFD8D3527C9275C97D08E428 /* Pods-GoogleVision-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GoogleVision-acknowledgements.plist"; sourceTree = "<group>"; };
+		502EA049FEBD2F1DD52348E09CF6812B /* TTSegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TTSegmentedControl.framework; path = TTSegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		505B63AA415D0D48F6DAAEAE2BB1BB5D /* Pods-Scrive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Scrive.release.xcconfig"; sourceTree = "<group>"; };
 		520EE8AF7395592A7B94C7FC609063D5 /* LookupFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LookupFilter.swift; path = framework/Source/Operations/LookupFilter.swift; sourceTree = "<group>"; };
 		524174A90B1809A8B5E192F3A46658E4 /* ColorBurnBlend.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorBurnBlend.swift; path = framework/Source/Operations/ColorBurnBlend.swift; sourceTree = "<group>"; };
 		534896FB4A852C6C4F1069C400317610 /* AdaptiveThreshold_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = AdaptiveThreshold_GLES.fsh; path = framework/Source/Operations/Shaders/AdaptiveThreshold_GLES.fsh; sourceTree = "<group>"; };
@@ -675,6 +678,7 @@
 		5A091437160C7D5131D57314974DEF95 /* OverlayBlend_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = OverlayBlend_GL.fsh; path = framework/Source/Operations/Shaders/OverlayBlend_GL.fsh; sourceTree = "<group>"; };
 		5AA1D98EB2426004640C28C8B810B925 /* Posterize_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Posterize_GL.fsh; path = framework/Source/Operations/Shaders/Posterize_GL.fsh; sourceTree = "<group>"; };
 		5B597389438287AADE6D7DEDBE9FE829 /* LevelsAdjustment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LevelsAdjustment.swift; path = framework/Source/Operations/LevelsAdjustment.swift; sourceTree = "<group>"; };
+		5BEE240EE514140B00C946A2EBC6763D /* Pods_Scrive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Scrive.framework; path = "Pods-Scrive.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF046AB7D01D3F5F6C4D8FBC71D321B /* LightenBlend_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = LightenBlend_GLES.fsh; path = framework/Source/Operations/Shaders/LightenBlend_GLES.fsh; sourceTree = "<group>"; };
 		5CD6C46B83E5A01B93E0EE0D18AA0147 /* Saturation_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Saturation_GL.fsh; path = framework/Source/Operations/Shaders/Saturation_GL.fsh; sourceTree = "<group>"; };
 		5D2AF64F1DBAFE3E2D5C2D946E9E3839 /* ThresholdSketch_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = ThresholdSketch_GL.fsh; path = framework/Source/Operations/Shaders/ThresholdSketch_GL.fsh; sourceTree = "<group>"; };
@@ -689,18 +693,15 @@
 		6083F227687474FFFA7C9749716B93B2 /* NormalBlend_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = NormalBlend_GL.fsh; path = framework/Source/Operations/Shaders/NormalBlend_GL.fsh; sourceTree = "<group>"; };
 		60ADB0842C1E42DCB137EC01EBBAF66E /* FalseColor_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = FalseColor_GL.fsh; path = framework/Source/Operations/Shaders/FalseColor_GL.fsh; sourceTree = "<group>"; };
 		6153E0F8378E11F1AFB852C6BDE23B27 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
-		62390CAD24D58FCB376ED0363903850B /* Pods-GoogleVision-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GoogleVision-acknowledgements.markdown"; sourceTree = "<group>"; };
 		62F5B77A7AC9D9342784A53E8987D090 /* SketchFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SketchFilter.swift; path = framework/Source/Operations/SketchFilter.swift; sourceTree = "<group>"; };
 		63C040774190732435A4E72C9D30EC06 /* Color.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Color.swift; path = framework/Source/Color.swift; sourceTree = "<group>"; };
 		646CEB1A625ECDDD2DC97346AB18DDC3 /* DivideBlend_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = DivideBlend_GL.fsh; path = framework/Source/Operations/Shaders/DivideBlend_GL.fsh; sourceTree = "<group>"; };
-		64BB93AE09542504DB12A4A72828CC63 /* EVGPUImage2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EVGPUImage2.framework; path = EVGPUImage2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65147780383A834DC23514D5F9B30599 /* Swirl_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Swirl_GL.fsh; path = framework/Source/Operations/Shaders/Swirl_GL.fsh; sourceTree = "<group>"; };
 		65330389882A7A37FF0ABA56CB183B3E /* EVGPUImage2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EVGPUImage2-dummy.m"; sourceTree = "<group>"; };
 		654B78B80F8403346DEF9D07F0504CC1 /* ZoomBlur_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = ZoomBlur_GLES.fsh; path = framework/Source/Operations/Shaders/ZoomBlur_GLES.fsh; sourceTree = "<group>"; };
 		6639EFE84EA6389ABBDFFE05659150FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		6671D24D8B9E5C7A6137CCC74261983F /* ShiTomasiFeatureDetector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShiTomasiFeatureDetector.swift; path = framework/Source/Operations/ShiTomasiFeatureDetector.swift; sourceTree = "<group>"; };
 		67E07D20383836FB9C5193CE82E9FF07 /* HistogramAccumulation_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = HistogramAccumulation_GL.fsh; path = framework/Source/Operations/Shaders/HistogramAccumulation_GL.fsh; sourceTree = "<group>"; };
-		67E80527B25D1E2E2977587AE8C3DCEA /* Pods-GoogleVision-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GoogleVision-frameworks.sh"; sourceTree = "<group>"; };
 		684ECE2CC3B44F8527470A3ED7EAD4E9 /* Dilation2_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Dilation2_GLES.fsh; path = framework/Source/Operations/Shaders/Dilation2_GLES.fsh; sourceTree = "<group>"; };
 		68D0A042ADC21AE7293B8E4F5CA712A3 /* CGAColorspaceFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGAColorspaceFilter.swift; path = framework/Source/Operations/CGAColorspaceFilter.swift; sourceTree = "<group>"; };
 		6909DE0ABFCE70113AC781457FB1C6CD /* OpacityAdjustment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpacityAdjustment.swift; path = framework/Source/Operations/OpacityAdjustment.swift; sourceTree = "<group>"; };
@@ -708,7 +709,6 @@
 		6A33BE911F6E099A36A7BD9BEE2717C1 /* HistogramEqualizationGreen_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = HistogramEqualizationGreen_GLES.fsh; path = framework/Source/Operations/Shaders/HistogramEqualizationGreen_GLES.fsh; sourceTree = "<group>"; };
 		6A8ABD3BD826AB7F82B86288C22B8D82 /* ImageBuffer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageBuffer.swift; path = framework/Source/Operations/ImageBuffer.swift; sourceTree = "<group>"; };
 		6B442A016C07D79624A25C51C8442E1F /* HueBlend.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HueBlend.swift; path = framework/Source/Operations/HueBlend.swift; sourceTree = "<group>"; };
-		6BD9D8AD29CC640F71849E775FEE7219 /* NVActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NVActivityIndicatorView.framework; path = NVActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C67F4668915E7435DD9A4DD012C5DBB /* ExposureAdjustment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExposureAdjustment.swift; path = framework/Source/Operations/ExposureAdjustment.swift; sourceTree = "<group>"; };
 		6CC91C636934C3DF84E05CE85CD0D1F2 /* Vibrance_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Vibrance_GL.fsh; path = framework/Source/Operations/Shaders/Vibrance_GL.fsh; sourceTree = "<group>"; };
 		6D61F46D2AC21301458ECC30164E33A3 /* Monochrome_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Monochrome_GLES.fsh; path = framework/Source/Operations/Shaders/Monochrome_GLES.fsh; sourceTree = "<group>"; };
@@ -725,7 +725,7 @@
 		743DB5E62BF1644EB515848256FE5DBE /* ThresholdedNonMaximumSuppression_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = ThresholdedNonMaximumSuppression_GLES.fsh; path = framework/Source/Operations/Shaders/ThresholdedNonMaximumSuppression_GLES.fsh; sourceTree = "<group>"; };
 		748CF9048442CC085113BED7C33C9F1E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		755A8676841CA7DDF44079DE98A37F7A /* Dilation1_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Dilation1_GL.fsh; path = framework/Source/Operations/Shaders/Dilation1_GL.fsh; sourceTree = "<group>"; };
-		75CE4E8843266C3AA6A496272137D74C /* Pods-GoogleVision-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GoogleVision-resources.sh"; sourceTree = "<group>"; };
+		75A580D4028325DE4442C09104CB8ACE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75E8B3AE0E30ACEC635117DABDA65247 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleRippleMultiple.swift; path = NVActivityIndicatorView/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScaleRippleMultiple.swift; sourceTree = "<group>"; };
 		76024B9DD6335D5C8CA8395E9AF33D36 /* Framebuffer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Framebuffer.swift; path = framework/Source/Framebuffer.swift; sourceTree = "<group>"; };
 		778A6C4BE384AD61C80E5D12836EFC5D /* ColorBlend_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = ColorBlend_GL.fsh; path = framework/Source/Operations/Shaders/ColorBlend_GL.fsh; sourceTree = "<group>"; };
@@ -771,7 +771,6 @@
 		8D20A18F3CB3C79528EE4F67B9E0424A /* PrewittEdgeDetection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PrewittEdgeDetection.swift; path = framework/Source/Operations/PrewittEdgeDetection.swift; sourceTree = "<group>"; };
 		8D85592A23B190247A807E8A0791DB66 /* NVActivityIndicatorAnimationSquareSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationSquareSpin.swift; path = NVActivityIndicatorView/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationSquareSpin.swift; sourceTree = "<group>"; };
 		8DD7A5E66F65E75B080C4C875FA22DA8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8E6D84F9478904A34F6DE518AD78B710 /* Pods-GoogleVision-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GoogleVision-dummy.m"; sourceTree = "<group>"; };
 		8E86726DCCA7066BC269B7F01F35AA90 /* Haze_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Haze_GLES.fsh; path = framework/Source/Operations/Shaders/Haze_GLES.fsh; sourceTree = "<group>"; };
 		8FB8D254AB587010A61D2B63AB4D3CBB /* Timestamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timestamp.swift; path = framework/Source/Timestamp.swift; sourceTree = "<group>"; };
 		908418303FA63F612DF32D6308D02EB4 /* ColorSwizzling_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = ColorSwizzling_GLES.fsh; path = framework/Source/Operations/Shaders/ColorSwizzling_GLES.fsh; sourceTree = "<group>"; };
@@ -829,6 +828,7 @@
 		AB3D97F4D2CEC265EB79BEC1C582791E /* ScreenBlend_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = ScreenBlend_GLES.fsh; path = framework/Source/Operations/Shaders/ScreenBlend_GLES.fsh; sourceTree = "<group>"; };
 		AB58739C712BBFB2FF35F765DF0601D9 /* Line_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Line_GLES.fsh; path = framework/Source/Operations/Shaders/Line_GLES.fsh; sourceTree = "<group>"; };
 		ABB3ABA7036319E069EE30BE43AA5B1E /* HarrisCornerDetector_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = HarrisCornerDetector_GL.fsh; path = framework/Source/Operations/Shaders/HarrisCornerDetector_GL.fsh; sourceTree = "<group>"; };
+		ABED447CC89377265608951BAE2D15B4 /* Pods-Scrive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Scrive-dummy.m"; sourceTree = "<group>"; };
 		AC8F0D1A0B6F82AF2FF920217611EF53 /* CircleGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleGenerator.swift; path = framework/Source/Operations/CircleGenerator.swift; sourceTree = "<group>"; };
 		AC9334B2F19477D2C53F79F320FD79F9 /* YUVConversionVideoRange_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = YUVConversionVideoRange_GLES.fsh; path = framework/Source/Operations/Shaders/YUVConversionVideoRange_GLES.fsh; sourceTree = "<group>"; };
 		AD1BB87DCCFAD8D12FA70B692E7EA608 /* WhiteBalance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WhiteBalance.swift; path = framework/Source/Operations/WhiteBalance.swift; sourceTree = "<group>"; };
@@ -872,6 +872,7 @@
 		C0ACCD9DFD8B413C101D369EAA5CA7D4 /* BulgeDistortion_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = BulgeDistortion_GLES.fsh; path = framework/Source/Operations/Shaders/BulgeDistortion_GLES.fsh; sourceTree = "<group>"; };
 		C14C2642BCDA0B55071630C1A79830C0 /* AverageLuminanceExtractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AverageLuminanceExtractor.swift; path = framework/Source/Operations/AverageLuminanceExtractor.swift; sourceTree = "<group>"; };
 		C266250D18D9F2B3F8D5B329E31CC9EC /* DivideBlend.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DivideBlend.swift; path = framework/Source/Operations/DivideBlend.swift; sourceTree = "<group>"; };
+		C281346D61DE2ECA60B84ACCC3D613B9 /* Pods-Scrive-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Scrive-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C2A321128BC8A1EE22FBC11082594756 /* ContrastAdjustment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContrastAdjustment.swift; path = framework/Source/Operations/ContrastAdjustment.swift; sourceTree = "<group>"; };
 		C3F446CF2A92F011F1081C109D6AAEE6 /* ShiTomasiFeatureDetector_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = ShiTomasiFeatureDetector_GL.fsh; path = framework/Source/Operations/Shaders/ShiTomasiFeatureDetector_GL.fsh; sourceTree = "<group>"; };
 		C5E4D1EC4295310FB6625047F7093218 /* HardLightBlend_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = HardLightBlend_GL.fsh; path = framework/Source/Operations/Shaders/HardLightBlend_GL.fsh; sourceTree = "<group>"; };
@@ -897,7 +898,6 @@
 		CFB33204EF03A817286019D6B36C93E4 /* NVActivityIndicatorShape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorShape.swift; path = NVActivityIndicatorView/NVActivityIndicatorView/NVActivityIndicatorShape.swift; sourceTree = "<group>"; };
 		CFBA7B597B3E40D30379EEE50430ED43 /* Vignette_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Vignette_GL.fsh; path = framework/Source/Operations/Shaders/Vignette_GL.fsh; sourceTree = "<group>"; };
 		D0CC53286D60A5772FD536DD25CC1359 /* BrightnessAdjustment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BrightnessAdjustment.swift; path = framework/Source/Operations/BrightnessAdjustment.swift; sourceTree = "<group>"; };
-		D0D01D4CE474C3942A39D23D56BF8AC1 /* Pods-GoogleVision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleVision.debug.xcconfig"; sourceTree = "<group>"; };
 		D111D4072A4FA231B8A125F3F897FD8B /* AlphaBlend_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = AlphaBlend_GLES.fsh; path = framework/Source/Operations/Shaders/AlphaBlend_GLES.fsh; sourceTree = "<group>"; };
 		D12AE3502501578FB8E5B637E5EF51CB /* Erosion3_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Erosion3_GLES.fsh; path = framework/Source/Operations/Shaders/Erosion3_GLES.fsh; sourceTree = "<group>"; };
 		D1FBF26AC7075C43DFF07A9A2633AEF2 /* AlphaTest_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = AlphaTest_GLES.fsh; path = framework/Source/Operations/Shaders/AlphaTest_GLES.fsh; sourceTree = "<group>"; };
@@ -906,6 +906,7 @@
 		D41FFA5F482DF642F15BAAC9F9139DD3 /* TTSegmentedControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTSegmentedControl-umbrella.h"; sourceTree = "<group>"; };
 		D4C949D6012A7E4FD051FD30A534FCF2 /* RenderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RenderView.swift; path = framework/Source/iOS/RenderView.swift; sourceTree = "<group>"; };
 		D51A078CEC14EE4BEDF74A6F8A4B0A14 /* DarkenBlend.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DarkenBlend.swift; path = framework/Source/Operations/DarkenBlend.swift; sourceTree = "<group>"; };
+		D59299A294EA47678158781EBF7588A6 /* Pods-Scrive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Scrive.debug.xcconfig"; sourceTree = "<group>"; };
 		D596E8C45BD59609BCB3449728C5F2EF /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallSpinFadeLoader.swift; path = NVActivityIndicatorView/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallSpinFadeLoader.swift; sourceTree = "<group>"; };
 		D5A2979E731B1C57CE37ACDDC2AD2201 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
 		D5A87449119CBEC9FC536AD04582F240 /* TextureSamplingOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextureSamplingOperation.swift; path = framework/Source/TextureSamplingOperation.swift; sourceTree = "<group>"; };
@@ -937,7 +938,6 @@
 		DF77CAC1E8228845A04B1F3659375489 /* HueBlend_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = HueBlend_GL.fsh; path = framework/Source/Operations/Shaders/HueBlend_GL.fsh; sourceTree = "<group>"; };
 		E1689D8419DA24918658AECCB63B6BE3 /* SoftLightBlend_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = SoftLightBlend_GL.fsh; path = framework/Source/Operations/Shaders/SoftLightBlend_GL.fsh; sourceTree = "<group>"; };
 		E16A5B6D09CF5CD9218484C70AD2588A /* Opacity_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Opacity_GL.fsh; path = framework/Source/Operations/Shaders/Opacity_GL.fsh; sourceTree = "<group>"; };
-		E1EA12090D60AD61E3CDBF948E03ECBD /* Pods-GoogleVision.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GoogleVision.modulemap"; sourceTree = "<group>"; };
 		E28031A215FCE1482300DF6D105293C1 /* NormalBlend_GLES.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = NormalBlend_GLES.fsh; path = framework/Source/Operations/Shaders/NormalBlend_GLES.fsh; sourceTree = "<group>"; };
 		E28464458424E0F50FFFA829D8A327CF /* NVActivityIndicatorAnimationBallZigZag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallZigZag.swift; path = NVActivityIndicatorView/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallZigZag.swift; sourceTree = "<group>"; };
 		E2965227B99E580D9277BC8C3E4CF8C6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -946,7 +946,6 @@
 		E49E946FDFE9AD7F0222EFB111AAEFF1 /* LanczosResampling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LanczosResampling.swift; path = framework/Source/Operations/LanczosResampling.swift; sourceTree = "<group>"; };
 		E4B23D081D817E6AED6B2F4CD77F9A65 /* TTSegmentedControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TTSegmentedControl.modulemap; sourceTree = "<group>"; };
 		E4E56CCDF2B2C0629E43A4836B7F9332 /* GlassSphereRefraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GlassSphereRefraction.swift; path = framework/Source/Operations/GlassSphereRefraction.swift; sourceTree = "<group>"; };
-		E50C14634A6C967E3214A23B434D6AE6 /* TTSegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TTSegmentedControl.framework; path = TTSegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5656D6AA58E993E7BB3215D38389916 /* TextureOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextureOutput.swift; path = framework/Source/TextureOutput.swift; sourceTree = "<group>"; };
 		E56B1B76E21DE483A2CA13A49C54A9B7 /* NVActivityIndicatorAnimationLineScale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScale.swift; path = NVActivityIndicatorView/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScale.swift; sourceTree = "<group>"; };
 		E5CA627024A7EAA1D174927EF88525BA /* MonochromeFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MonochromeFilter.swift; path = framework/Source/Operations/MonochromeFilter.swift; sourceTree = "<group>"; };
@@ -992,6 +991,7 @@
 		FB8B483A65A3EFD58C134B96480AF9BB /* SobelEdgeDetection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SobelEdgeDetection.swift; path = framework/Source/Operations/SobelEdgeDetection.swift; sourceTree = "<group>"; };
 		FB8CCAD20119D11034A50797AEC0E09B /* NVActivityIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NVActivityIndicatorView-prefix.pch"; sourceTree = "<group>"; };
 		FC5F7C625D9C0ED4689F829FC2DB47DC /* Exposure_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = Exposure_GL.fsh; path = framework/Source/Operations/Shaders/Exposure_GL.fsh; sourceTree = "<group>"; };
+		FCDE052131486C60A2F8A339E923BD63 /* Pods-Scrive-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Scrive-acknowledgements.plist"; sourceTree = "<group>"; };
 		FD535862861E63252310FE6E156DB7CF /* NVActivityIndicatorAnimationAudioEqualizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationAudioEqualizer.swift; path = NVActivityIndicatorView/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationAudioEqualizer.swift; sourceTree = "<group>"; };
 		FDCB00BBC83A2EA20CE87DD2E74BA488 /* NobleCornerDetector_GL.fsh */ = {isa = PBXFileReference; includeInIndex = 1; name = NobleCornerDetector_GL.fsh; path = framework/Source/Operations/Shaders/NobleCornerDetector_GL.fsh; sourceTree = "<group>"; };
 		FF4C39A0C9FCFC4E75D3CDACD7FEA7FD /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
@@ -1000,12 +1000,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0936E9515178D12C2C8AD472918D95D5 /* Frameworks */ = {
+		06BB3699A03369A6266B3D10A0C99ADD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5121A15A29CEC1D28CEC2F1DA9FE712 /* Foundation.framework in Frameworks */,
-				CB611D34981BA9C9944A1B1D49318A6C /* UIKit.framework in Frameworks */,
+				80C441EDAB8A62B260CA816EB369CD13 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1021,19 +1020,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8738A770EC5DB75DC9A2CC3B67B73CA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				519DFFAA0453956388DDED52EFA0C27F /* Foundation.framework in Frameworks */,
+				E2346500BDCED33358F4BE2A5F9913F0 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		99195E4207764744AEC07ECCBCD550EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AD02230E9CAECC5F38F5892FBC1E5132 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				296AA5959D8D472C022D7F9D99387901 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1062,6 +1062,24 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/TTSegmentedControl";
+			sourceTree = "<group>";
+		};
+		0823DDF7CA079DCDB997EEF4D3116D80 /* Pods-Scrive */ = {
+			isa = PBXGroup;
+			children = (
+				75A580D4028325DE4442C09104CB8ACE /* Info.plist */,
+				2CA5529125AE5D6DA8AC6D641EE18634 /* Pods-Scrive.modulemap */,
+				C281346D61DE2ECA60B84ACCC3D613B9 /* Pods-Scrive-acknowledgements.markdown */,
+				FCDE052131486C60A2F8A339E923BD63 /* Pods-Scrive-acknowledgements.plist */,
+				ABED447CC89377265608951BAE2D15B4 /* Pods-Scrive-dummy.m */,
+				30D74A5F03B5D33FC522C83F59DA89CC /* Pods-Scrive-frameworks.sh */,
+				30265F62554324A9AF959F9FF8D5AF71 /* Pods-Scrive-resources.sh */,
+				23D3CFACAE2C43B4E59BC3A414FDB86B /* Pods-Scrive-umbrella.h */,
+				D59299A294EA47678158781EBF7588A6 /* Pods-Scrive.debug.xcconfig */,
+				505B63AA415D0D48F6DAAEAE2BB1BB5D /* Pods-Scrive.release.xcconfig */,
+			);
+			name = "Pods-Scrive";
+			path = "Target Support Files/Pods-Scrive";
 			sourceTree = "<group>";
 		};
 		0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */ = {
@@ -1351,6 +1369,14 @@
 			path = "../Target Support Files/NVActivityIndicatorView";
 			sourceTree = "<group>";
 		};
+		6AD3F02EF6C2E0066678296268B53722 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0823DDF7CA079DCDB997EEF4D3116D80 /* Pods-Scrive */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		6D5FF3E01C1BC237954E1141455016F3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -1362,23 +1388,27 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		7AD3A81EB34ADCE30EF10383D433BF52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F091DA581498347820576A24EB4414F /* Alamofire.framework */,
+				22F8810909B02D072DEE382788DDCF9F /* EVGPUImage2.framework */,
+				4A48616F25BF0527DD1E77BE4BE54CF3 /* NVActivityIndicatorView.framework */,
+				5BEE240EE514140B00C946A2EBC6763D /* Pods_Scrive.framework */,
+				502EA049FEBD2F1DD52348E09CF6812B /* TTSegmentedControl.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */,
 				6D5FF3E01C1BC237954E1141455016F3 /* Pods */,
-				CA7CB5ED0E721E01F927A6FE79C9F806 /* Products */,
-				8BE9874F259B79BA2E114D86A546DEBB /* Targets Support Files */,
+				7AD3A81EB34ADCE30EF10383D433BF52 /* Products */,
+				6AD3F02EF6C2E0066678296268B53722 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8BE9874F259B79BA2E114D86A546DEBB /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F846C137B086E5D3B54DB3B21B62F583 /* Pods-GoogleVision */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		A2F8D9834630B52EAA34CF14225E9E3D /* Support Files */ = {
@@ -1653,44 +1683,14 @@
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
-		CA7CB5ED0E721E01F927A6FE79C9F806 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				085C3FEDA0B330DCBB0D3BFB93551142 /* Alamofire.framework */,
-				64BB93AE09542504DB12A4A72828CC63 /* EVGPUImage2.framework */,
-				6BD9D8AD29CC640F71849E775FEE7219 /* NVActivityIndicatorView.framework */,
-				422560F753F7D3DCEEF27BAE7FB9972A /* Pods_GoogleVision.framework */,
-				E50C14634A6C967E3214A23B434D6AE6 /* TTSegmentedControl.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		F846C137B086E5D3B54DB3B21B62F583 /* Pods-GoogleVision */ = {
-			isa = PBXGroup;
-			children = (
-				2EA0AB6C4697F25C17D0B04548C4858B /* Info.plist */,
-				E1EA12090D60AD61E3CDBF948E03ECBD /* Pods-GoogleVision.modulemap */,
-				62390CAD24D58FCB376ED0363903850B /* Pods-GoogleVision-acknowledgements.markdown */,
-				4FAC47A1BFD8D3527C9275C97D08E428 /* Pods-GoogleVision-acknowledgements.plist */,
-				8E6D84F9478904A34F6DE518AD78B710 /* Pods-GoogleVision-dummy.m */,
-				67E80527B25D1E2E2977587AE8C3DCEA /* Pods-GoogleVision-frameworks.sh */,
-				75CE4E8843266C3AA6A496272137D74C /* Pods-GoogleVision-resources.sh */,
-				3C79BF6497BE524C7F480721C6727108 /* Pods-GoogleVision-umbrella.h */,
-				D0D01D4CE474C3942A39D23D56BF8AC1 /* Pods-GoogleVision.debug.xcconfig */,
-				419BC2C56AF911BDFCF1712AD2AD4A0F /* Pods-GoogleVision.release.xcconfig */,
-			);
-			name = "Pods-GoogleVision";
-			path = "Target Support Files/Pods-GoogleVision";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		45D5B5A64762537BA49DD01E72275136 /* Headers */ = {
+		459AA31D111845C228E6FAF4D16B8FDD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40912441D0C8DB52F3F8C1F390C10C80 /* Pods-GoogleVision-umbrella.h in Headers */,
+				DF45C044693FF7DC7EC55CBEA9412BAB /* TTSegmentedControl-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1702,19 +1702,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1B2961F193A5ADEA39F48412DDFCB31 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B0DA0E558C5FC753F18D85E25EB31F4A /* TTSegmentedControl-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB8845D0E3C2EC6DB9EC6184FC4C6125 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB35C840EFA19CAF345FE9B57D9185E4 /* Pods-Scrive-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1744,7 +1744,7 @@
 			);
 			name = EVGPUImage2;
 			productName = EVGPUImage2;
-			productReference = 64BB93AE09542504DB12A4A72828CC63 /* EVGPUImage2.framework */;
+			productReference = 22F8810909B02D072DEE382788DDCF9F /* EVGPUImage2.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		3EDFE4052B5DE7D509935AC0774CB135 /* NVActivityIndicatorView */ = {
@@ -1761,45 +1761,7 @@
 			);
 			name = NVActivityIndicatorView;
 			productName = NVActivityIndicatorView;
-			productReference = 6BD9D8AD29CC640F71849E775FEE7219 /* NVActivityIndicatorView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		4DAA01FDA84DA403817EC14678D811B1 /* Pods-GoogleVision */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 83B35760B2FF2E5C366C5B597F0457B4 /* Build configuration list for PBXNativeTarget "Pods-GoogleVision" */;
-			buildPhases = (
-				3329462CE3ABA72B9ECC2B1BD2BCF4EF /* Sources */,
-				AD02230E9CAECC5F38F5892FBC1E5132 /* Frameworks */,
-				45D5B5A64762537BA49DD01E72275136 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F18394F183C9C05A7CE9894B8FF038AD /* PBXTargetDependency */,
-				9966BC6D773A97C5FB39BF8FF74A1A42 /* PBXTargetDependency */,
-				31D535D7EDA1E4318F1CF1207DDCFA5D /* PBXTargetDependency */,
-				73CA57E7DB6ED67546B3E8B0DB08AF31 /* PBXTargetDependency */,
-			);
-			name = "Pods-GoogleVision";
-			productName = "Pods-GoogleVision";
-			productReference = 422560F753F7D3DCEEF27BAE7FB9972A /* Pods_GoogleVision.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		6826D1B96C510C6348AD05DFB7CF1E22 /* TTSegmentedControl */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1BC8D94B301D9320EDE8D5F540987470 /* Build configuration list for PBXNativeTarget "TTSegmentedControl" */;
-			buildPhases = (
-				5BAF61380E12E2BC3CCA9E3E73DF412A /* Sources */,
-				0936E9515178D12C2C8AD472918D95D5 /* Frameworks */,
-				A1B2961F193A5ADEA39F48412DDFCB31 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = TTSegmentedControl;
-			productName = TTSegmentedControl;
-			productReference = E50C14634A6C967E3214A23B434D6AE6 /* TTSegmentedControl.framework */;
+			productReference = 4A48616F25BF0527DD1E77BE4BE54CF3 /* NVActivityIndicatorView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
@@ -1816,7 +1778,45 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = 085C3FEDA0B330DCBB0D3BFB93551142 /* Alamofire.framework */;
+			productReference = 1F091DA581498347820576A24EB4414F /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		926287620EF6A428BE42DBC098BD5AF1 /* TTSegmentedControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 925A7506FF33E450C7A349287E87F06E /* Build configuration list for PBXNativeTarget "TTSegmentedControl" */;
+			buildPhases = (
+				9E8B59E1F142C26605C5AB7751B8C414 /* Sources */,
+				8738A770EC5DB75DC9A2CC3B67B73CA1 /* Frameworks */,
+				459AA31D111845C228E6FAF4D16B8FDD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTSegmentedControl;
+			productName = TTSegmentedControl;
+			productReference = 502EA049FEBD2F1DD52348E09CF6812B /* TTSegmentedControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BDE4D345E43F15B9440816EE4321E7B1 /* Pods-Scrive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D0E2ED4BA73D735FEA0501035D4E841 /* Build configuration list for PBXNativeTarget "Pods-Scrive" */;
+			buildPhases = (
+				1813A3314400ECADAD1A822EDD20A9E4 /* Sources */,
+				06BB3699A03369A6266B3D10A0C99ADD /* Frameworks */,
+				CB8845D0E3C2EC6DB9EC6184FC4C6125 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63785BA16DD3A871BEE6404B9FF94DBF /* PBXTargetDependency */,
+				5ABC50310F387DD4593A019D1F9E7CBE /* PBXTargetDependency */,
+				F10D7EAAD1386F25778392C8E1E07A3C /* PBXTargetDependency */,
+				C7499B431DB539FB63F81463DF9250B9 /* PBXTargetDependency */,
+			);
+			name = "Pods-Scrive";
+			productName = "Pods-Scrive";
+			productReference = 5BEE240EE514140B00C946A2EBC6763D /* Pods_Scrive.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1836,15 +1836,15 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CA7CB5ED0E721E01F927A6FE79C9F806 /* Products */;
+			productRefGroup = 7AD3A81EB34ADCE30EF10383D433BF52 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */,
 				16B226562714780CFDE2008319B56073 /* EVGPUImage2 */,
 				3EDFE4052B5DE7D509935AC0774CB135 /* NVActivityIndicatorView */,
-				4DAA01FDA84DA403817EC14678D811B1 /* Pods-GoogleVision */,
-				6826D1B96C510C6348AD05DFB7CF1E22 /* TTSegmentedControl */,
+				BDE4D345E43F15B9440816EE4321E7B1 /* Pods-Scrive */,
+				926287620EF6A428BE42DBC098BD5AF1 /* TTSegmentedControl */,
 			);
 		};
 /* End PBXProject section */
@@ -2098,6 +2098,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1813A3314400ECADAD1A822EDD20A9E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				634E2D892272B1F0AB3575CCA6F92877 /* Pods-Scrive-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		32B9974868188C4803318E36329C87FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2120,14 +2128,6 @@
 				3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */,
 				10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */,
 				BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3329462CE3ABA72B9ECC2B1BD2BCF4EF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A664DE1DEBB198F30062A1D9629B59B7 /* Pods-GoogleVision-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2335,45 +2335,79 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5BAF61380E12E2BC3CCA9E3E73DF412A /* Sources */ = {
+		9E8B59E1F142C26605C5AB7751B8C414 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2012AE0E3B71AA2FD3BCD262722B595 /* TTSegmentedControl-dummy.m in Sources */,
-				BF71A678A5E6E0F3B576C4A09C1AEAAF /* TTSegmentedControl.swift in Sources */,
+				6BB46072B24D8F9687E9785D2E016170 /* TTSegmentedControl-dummy.m in Sources */,
+				856AE5A96EBAF4042D77BEF029B8E877 /* TTSegmentedControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		31D535D7EDA1E4318F1CF1207DDCFA5D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = NVActivityIndicatorView;
-			target = 3EDFE4052B5DE7D509935AC0774CB135 /* NVActivityIndicatorView */;
-			targetProxy = ACF4275E31CF87BDA6E6D138EE4150EB /* PBXContainerItemProxy */;
-		};
-		73CA57E7DB6ED67546B3E8B0DB08AF31 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TTSegmentedControl;
-			target = 6826D1B96C510C6348AD05DFB7CF1E22 /* TTSegmentedControl */;
-			targetProxy = 70EE8812F0F6735BC9C317368C5F746A /* PBXContainerItemProxy */;
-		};
-		9966BC6D773A97C5FB39BF8FF74A1A42 /* PBXTargetDependency */ = {
+		5ABC50310F387DD4593A019D1F9E7CBE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EVGPUImage2;
 			target = 16B226562714780CFDE2008319B56073 /* EVGPUImage2 */;
-			targetProxy = 08D183A5AE3FD2E50C06A697CAB86E91 /* PBXContainerItemProxy */;
+			targetProxy = 35BEBE524CB57FC3EC290DCE2A0AC4FC /* PBXContainerItemProxy */;
 		};
-		F18394F183C9C05A7CE9894B8FF038AD /* PBXTargetDependency */ = {
+		63785BA16DD3A871BEE6404B9FF94DBF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
 			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
-			targetProxy = 13C14D290071D1741A10B98025D6C78A /* PBXContainerItemProxy */;
+			targetProxy = F8B431980A8266BF8BC38561DFB1E9EA /* PBXContainerItemProxy */;
+		};
+		C7499B431DB539FB63F81463DF9250B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTSegmentedControl;
+			target = 926287620EF6A428BE42DBC098BD5AF1 /* TTSegmentedControl */;
+			targetProxy = 7D5C8F84EC0D8638E07636A02E5D7503 /* PBXContainerItemProxy */;
+		};
+		F10D7EAAD1386F25778392C8E1E07A3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NVActivityIndicatorView;
+			target = 3EDFE4052B5DE7D509935AC0774CB135 /* NVActivityIndicatorView */;
+			targetProxy = 8482A6BB0F3775BA56A35E594F25D601 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		004C6E690BA7AAFEA8FBED348F968359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 379D8DEF8F43FE5C73DD07FC015DD03F /* TTSegmentedControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TTSegmentedControl/TTSegmentedControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TTSegmentedControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TTSegmentedControl/TTSegmentedControl.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TTSegmentedControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		10BB3175147138916FB96CCFF06763BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C0A206036273F796ABEBD786118E5EE2 /* EVGPUImage2.xcconfig */;
@@ -2408,7 +2442,7 @@
 			};
 			name = Release;
 		};
-		2C9A8E47A0513CE96D9E82C85F920213 /* Debug */ = {
+		1433174ACBA92838431ABE8451F1D384 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 379D8DEF8F43FE5C73DD07FC015DD03F /* TTSegmentedControl.xcconfig */;
 			buildSettings = {
@@ -2561,6 +2595,45 @@
 			};
 			name = Debug;
 		};
+		62BFC1431C73C7EE45AC2B04416D1D12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D59299A294EA47678158781EBF7588A6 /* Pods-Scrive.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Scrive/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Scrive/Pods-Scrive.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Scrive;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		7D072D0D174F12EAACC1862DA756E67A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6153E0F8378E11F1AFB852C6BDE23B27 /* Alamofire.xcconfig */;
@@ -2585,44 +2658,6 @@
 				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B453CE254A6194FDE057BBF74700BDB7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 419BC2C56AF911BDFCF1712AD2AD4A0F /* Pods-GoogleVision.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-GoogleVision/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GoogleVision/Pods-GoogleVision.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_GoogleVision;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -2746,9 +2781,9 @@
 			};
 			name = Debug;
 		};
-		CACBEA8CBE4411C251EFDB745AC347F3 /* Release */ = {
+		CF1D3988B57170D8DC175A57CC37301B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 379D8DEF8F43FE5C73DD07FC015DD03F /* TTSegmentedControl.xcconfig */;
+			baseConfigurationReference = 505B63AA415D0D48F6DAAEAE2BB1BB5D /* Pods-Scrive.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2762,14 +2797,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TTSegmentedControl/TTSegmentedControl-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TTSegmentedControl/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Scrive/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TTSegmentedControl/TTSegmentedControl.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Scrive/Pods-Scrive.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = TTSegmentedControl;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Scrive;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -2780,57 +2819,9 @@
 			};
 			name = Release;
 		};
-		FF04F9332AA4DB72E523CE4E7EDEB5E8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0D01D4CE474C3942A39D23D56BF8AC1 /* Pods-GoogleVision.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-GoogleVision/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GoogleVision/Pods-GoogleVision.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_GoogleVision;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1BC8D94B301D9320EDE8D5F540987470 /* Build configuration list for PBXNativeTarget "TTSegmentedControl" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2C9A8E47A0513CE96D9E82C85F920213 /* Debug */,
-				CACBEA8CBE4411C251EFDB745AC347F3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2867,11 +2858,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83B35760B2FF2E5C366C5B597F0457B4 /* Build configuration list for PBXNativeTarget "Pods-GoogleVision" */ = {
+		7D0E2ED4BA73D735FEA0501035D4E841 /* Build configuration list for PBXNativeTarget "Pods-Scrive" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF04F9332AA4DB72E523CE4E7EDEB5E8 /* Debug */,
-				B453CE254A6194FDE057BBF74700BDB7 /* Release */,
+				62BFC1431C73C7EE45AC2B04416D1D12 /* Debug */,
+				CF1D3988B57170D8DC175A57CC37301B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		925A7506FF33E450C7A349287E87F06E /* Build configuration list for PBXNativeTarget "TTSegmentedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1433174ACBA92838431ABE8451F1D384 /* Debug */,
+				004C6E690BA7AAFEA8FBED348F968359 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
